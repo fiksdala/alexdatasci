@@ -1,0 +1,25 @@
+---
+title: "Alcohol Consumption Prediction"
+author: "Alexander Fiksdal"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+As the first project featured on the site, I decided to start with something fairly straight-forward. I'll be analyzing data related to alcohol consumption among secondary school students. The data is publicly available on kaggle [here](https://www.kaggle.com/uciml/student-alcohol-consumption#student-mat.csv). I'll analyze the data using R via RStudio in a R Markdown document.
+
+## Data description
+
+The data is spread across two csv files, and contains a variables addressing a variety of family and school-related factors. The datasets will be combined prior to analysis (conveniently, a simple merge script is included with the data). A summary of the variables is displayed below.
+
+```{r}
+source('data_files/student)
+```
+
+## Analytic plan
+
+I'll use multiple regression to predict al
