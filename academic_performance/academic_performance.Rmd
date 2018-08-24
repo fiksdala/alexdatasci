@@ -1,5 +1,5 @@
 ---
-title: "Quick Insights: Academic Performance, Health, and Alcohol Consumption"
+title: "Academic Performance"
 author: "Alexander Fiksdal"
 output: 
   html_document:
