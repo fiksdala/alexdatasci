@@ -4,6 +4,8 @@
 # Other random files
 git-cheat-sheet-education.pdf
 citations.enlp
+.Rdata
+
 
 # Don't include rprojects or .rdata or .rhistory
 *.Rproj
