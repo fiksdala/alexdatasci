@@ -8,6 +8,8 @@ citations.enlp
 
 # Don't include rprojects or .rdata or .rhistory
 *.Rproj
+.Rdata
+.Rhistory
 
 ##########################################################################################
 ## Plus template from https://gist.github.com/octocat/9257657 ############################
