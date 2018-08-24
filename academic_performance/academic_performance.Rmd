@@ -1,0 +1,429 @@
+---
+title: "Academic Performance"
+author: "Alexander Fiksdal"
+output: 
+  html_document:
+    toc: TRUE
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This is the first little project that I'm posting for this site. While it's a good challenge and exercise to distill a project in something that can be summarized in one post, these early examples will likely be a bit imperfect. Also, [as I've mentioned before](https://alexdatasci.com/about/) I'm not trying to create generalizable research here. Since I'm using public data, it's also possible and likely that others have done similar analyses. That's ok with me. I'm simply trying to simulate some likely scenarios that one might encounter out in the 'real world' and demonstrate how I might go about tackling them. 
+
+Ok, moving on.
+
+I decided to start with something fairly straight-forward. I'll be analyzing data related to academic, social, and family factors of secondary school students of two Portuguese schools. I'll start with a simple scenario. Let's say that I'm approached by someone who has this data, is worried about how absences are related to academic performance, and has a sense that health and alcohol consumption might be playing a role. They also have noticed the boys lagging behind the girls in terms of grades. They want to quickly get a better idea of how these factors are related, and ask me to analyze the data for them. The priority here is to test and explore *associations*, it is not to create a model that maximizes prediction accuracy. The end result should be a clear summary that conveys the pertninet findings and their implications in clear, non-technical language. You can jump ahead to that part by clicking on 'Summary/Visualization, or What’s the Story?' in the table of contents above.
+
+## Data description and preparataion
+
+The data, spread across two csv files, represents math and Portuguese classes and is publicly available on kaggle [here](https://www.kaggle.com/uciml/student-alcohol-consumption#student-mat.csv). Variable attribute information is also available [here](https://archive.ics.uci.edu/ml/datasets/student+performance). The official reference for the dataset is displayed below:
+
+P. Cortez and A. Silva. Using Data Mining to Predict Secondary School Student 
+  Performance. In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture 
+  BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, 
+  April, 2008, EUROSIS, ISBN 978-9077381-39-7. 
+ 
+To keep this example very simple, I'll only look at the file for one class (Portuguese).
+
+# Analytic plan
+
+Even for simple analyses, going in with a plan is important. It doesn't have to be super complicated. Here's my basic approach for this example.
+
+* Data cleaning
+    * Read in the data, look for errors, recode, transform and/or center any variables that need it.
+* Descriptive stats
+    * Generate descriptive statistics and plots to get a feel for how the data looks
+* Analyses: test hypotheses
+    * Are there overall sex differences in academic performance or other predictors? (t-tests, boxplots for visualization)
+    * Do absences predict academic performance, controlling for health and sex? (multiple regression)
+    * Does alcohol intake, sex, or health predict absences? (this will end up being logistic regression after transforming absences to binary)
+    * Does alcohol consumption predict academic performance, controlling for absences, health, and sex? (multiple regression)
+    * Does sex moderate any of these interactions?
+* Model diagnostics (check assumptions, influential cases)
+* Summary/Visualization of results
+
+&ast; For multiple and logistic regression, I'll enter the primary variable(s) of interest first, then add covariates. Depending on significance of coefficients, I may drop variables. For sex moderation, I'll test interactions individually and drop any that are not significant.
+
+# Analysis
+
+A quick note on the packages I used here. For this post, I'll use the following packages:
+
+[dplyr](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
+[reshape2](https://cran.r-project.org/web/packages/reshape2/index.html)
+[ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
+[psych](https://cran.r-project.org/web/packages/psych/index.html)
+[car](https://cran.r-project.org/web/packages/car/index.html)
+
+I'll also occasionally use some of my own functions (denoted by *MF) from my personal R package that I use frequently in my workflow. That package isn't quite ready for public consumption (a lot of it was written when I was pretty new to R), so the documentation may be incomplete and some of the code may be...let's call it less than elegant. If you're still curious, you can find all of that on [github](https://github.com/fiksdala/fiksdal/). The two convenience functions I used in this post are [slist](https://github.com/fiksdala/fiksdal/blob/master/R/slist.R) and [zcent](https://github.com/fiksdala/fiksdal/blob/master/R/zcent.R).
+
+## Data cleaning/Descriptive stats
+
+First, I'll read in the data. 
+
+```{r echo=F}
+rm(list=ls())
+suppressMessages(library(dplyr)) # For piping and to keep things tidy.
+suppressMessages(library(fiksdal)) # My personal R package
+
+# Read in files
+mypath <- paste0('/Users/alex/Documents/alexdatasci/',
+                 'data_files/student-alcohol-consumption/')
+pordf <- read.csv(paste0(mypath,"student-por.csv"))
+```
+
+Now let's look at the first few observations/columns and the dataset structure.
+
+```{r}
+head(pordf[,1:5])
+str(pordf)
+```
+
+I'll drop the variables I don't need for this quick analysis.
+
+```{r}
+df <- pordf[,slist('G3 sex health Dalc Walc absences')] #*MF for fast typing
+```
+
+Next, we'll look at the distributions of the final grades and absences variables, which will be our dependent variables for the analysis.
+
+```{r}
+library(gmodels,quietly = T)
+boxplot(df$G3)
+qqnorm(df$G3)
+qqline(df$G3)
+
+boxplot(df$absences)
+qqnorm(df$absences)
+qqline(df$absences)
+CrossTable(df$absences>0)
+```
+
+G3 has some issues with normality, due to a bunch of observations with values at or near zero. To make for better inferences, I'll omit values <=1. The distribution with absences is heavily skewed, with 35% of the dataset listing 0 absences. This makes it difficult to analyze with the normality requirements of parametric tests. Instead, I'll create a dummy variable indicating whether a student had 0 or more than 0 absences, and then run a logistic regression model. There are other approaches I could use instead, and I may do so in a future post. But for now, I'll keep it simple.
+
+```{r}
+df <- df[df$G3>1,]
+df$abs_ind <- ifelse(df$absences>0,1,0)
+```
+
+Now let's look at some simple descriptive plots. When you have a reasonable number of variables (or a huge display if you have slightly more), the pairs.panels function in the psych library is pretty convenient. 
+
+```{r}
+library(psych,quietly = T)
+pairs.panels(df)
+```
+
+As you can see, there are some limitations there as well. When you're dealing with integer data (particularly with smaller ranges), overlap can make plots hard to interpret. I'll take a different approach with ggplot to look at boxplots and scatter plots (with geom_count to deal with overlap) as well (note that reshaping is sometimes required for ease of use).
+
+```{r}
+suppressMessages(library(ggplot2))
+suppressMessages(library(reshape2))
+ggdf <- melt(df,id.vars=c('sex','abs_ind'))
+# Boxplots by sex
+ggplot(ggdf,aes(sex,value)) +
+  geom_boxplot() +
+  facet_wrap(~variable, scales='free')
+# Boxplots by absences>0
+ggplot(ggdf[ggdf$variable!='absences',],aes(as.factor(abs_ind),value)) +
+  geom_boxplot() +
+  facet_wrap(~variable, scales='free',ncol=2) +
+  labs(x='Absences: 1=More than 0, 0=0')
+
+ggdf <- melt(df,id.vars=slist('G3 sex abs_ind'))
+ggplot(ggdf, aes(value,G3,color=sex)) +
+  geom_count() +
+  scale_size_area() +
+  geom_smooth(method='lm') +
+  facet_wrap(~variable,scales='free')
+```
+
+We can see from these plots that males appear to drink more alcohol than females. We'll have to keep that in mind as we continue with the analyses. A lot of these variables are not normally distributed (which is not a requirement for indpendent variables). Some will require centering to help with heteroscedasticity, interactions, and ease of interpretation.
+
+```{r}
+df <- zcent(df,slist('health Dalc Walc absences')) #*MF
+```
+
+## Test hypotheses
+
+**Sex differences? Also, a quick sidenote on the utility of t-tests**
+
+We'll look at some t-tests to see if the differences in means of variables of interest between males and females are statistically significantly different than 0. This particular sample has 649 observations, which depending on your point of view is either a lot or not many. Regardless, as n increases it becomes easier to detect statistically significant differences. This just means that your interpretation should never stop at a p-value. Statistical tests are only really useful in letting you know how likely it is that you drew your sample from a population where the null hypothesis is true (in this case, that the difference in means between males and females = 0). They cannot tell you whether any differences are meaningful or not (that requires interpretation). There's plenty more to say on this, but that's for another post.
+
+```{r}
+t.test(df$G3~df$sex)
+t.test(df$health~df$sex)
+t.test(df$Dalc~df$sex)
+t.test(df$Walc~df$sex)
+t.test(df$absences~df$sex)
+```
+
+It seems that males get lower grades and drink more on average, while females report poorer health. The difference in absences was not statistically significant.
+
+**Regression model**
+
+*Do absences predict grades, controlling for health and sex?*
+
+```{r}
+m1 <- lm(G3 ~ absences_c, df)
+summary(m1)
+m1.cv <- lm(G3 ~ absences_c+health_c+sex, df)
+summary(m1.cv)
+anova(m1,m1.cv)
+```
+
+Health, absences, and sex all remain significant. The `anova` command carries out a formal model comparison test, which indicates that the model with covariates is the better model.
+
+*Does alcohol consumption, sex, or health predict absences?*
+
+```{r}
+logm1 <- glm(abs_ind~Walc_c, family=binomial(link='logit'),df)
+summary(logm1)
+logm1.1 <- glm(abs_ind~Dalc_c, family=binomial(link='logit'),df)
+summary(logm1.1)
+logm1.2 <- glm(abs_ind~Walc_c+Dalc_c, family=binomial(link='logit'),df)
+summary(logm1.2)
+logm2 <- glm(abs_ind~Walc_c+sex+health_c, family=binomial(link='logit'),df)
+summary(logm2)
+exp(logm2$coefficients[2]) # Odds Ratio
+```
+
+Weekend alcohol consumption, but not daily alcohol consumption, positively predicts whether a student will have more than one absence. Specifically, per one unit increase in Walc, the log odds of missing any classes will increase .23. This means for that one unit increase, the the odds of a student missing any class will go up by about 25.8%.
+
+*Does alcohol consumption predict academic performance, controlling for absences, health, and sex?*
+
+First, let's take a look at the two measures of alcohol.
+
+```{r}
+alc1 <- lm(G3~Dalc_c,df)
+alc2 <- lm(G3~Walc_c,df)
+summary(alc1)
+summary(alc2)
+alc3 <- lm(G3~Dalc_c+Walc_c,df)
+summary(alc3)
+pwcorr(df,slist('Dalc Walc'))
+```
+
+Controlling for daily drinking, weekend drinking is no longer a significant predictor. They are correlated, but not *extremely* highly (r=.62), so I'll keep both in the model. Let's add the other variables.
+
+```{r}
+m2 <- lm(G3 ~ sex+absences_c+health_c+Dalc_c+Walc_c, df)
+summary(m2)
+anova(m1.cv,m2)
+```
+
+Some interesting things are revealed here. Controlling for everything else, sexis no longer statistically significant and the significance level of weekend alcohol has gone up as well. All else being equal, health, absences, and daily alcohol seem to be the strongest predictors of academic performance. Given that we know there are other sex differences though, let's take a look at the interactions with sex and conditional effects.
+
+*Sex as a moderator*
+
+```{r}
+logm2.1 <- glm(abs_ind~Walc_c*sex+health_c, family=binomial(link='logit'),df)
+summary(logm2.1)
+m3.1 <- lm(G3 ~ sex*absences_c+health_c+Dalc_c+Walc_c, df)
+summary(m3.1)
+m3.2 <- lm(G3 ~ absences_c+sex*health_c+Dalc_c+Walc_c, df)
+summary(m3.2)
+m3.3 <- lm(G3 ~ absences_c+health_c+sex*(Dalc_c+Walc_c), df)
+summary(m3.3)
+m3.4 <- lm(G3 ~ absences_c+health_c+Dalc_c+sex*Walc_c, df)
+summary(m3.4) # Female conditional
+df$female <- ifelse(df$sex=='F',1,0) # Create female dummy code
+m3.4m <- lm(G3 ~ absences_c+health_c+Dalc_c+female*Walc_c, df)
+summary(m3.4m) # Male conditional
+```
+
+Here we can see that there's a significant interaction with weekend alcohol consumption and sex predicting grades. The conditional effect of weekend alcohol consumption among females continues to be non-significant. However, among males, this is not the case. Their coefficient estimate is ~ .6 less than the female estimate of .17 (non-significant), meaning that for every one unit increase in weekend drinking, final grades for males go down .42 on average (this coefficient is significant for males). 
+
+Incorporating this interaction also makes the effect of daily alcohol consumption non-significant. 
+
+## Model diagnostics
+
+Before we accept this as our final grades model and create some helpful visualizations for our summary, let's run some model diagnostics to make sure we don't have problems with assumptions or outliers. There's a nice variety of diagnostics in the `car` package.
+
+```{r}
+suppressMessages(library(car))
+plot(m3.4$resid) # Normal distribution of residuals?
+qqPlot(m3.4) # Normal distribution of residuals?
+plot(m3.4,which=4) # Cook's d for high influence
+vif(m3.4) # Multicolinearity
+df$cooks <- cooks.distance(m3.4) # Add cook's d values
+```
+
+The residuals look fairly normally distributed, and vifs look good as well. There is one case that has a cook's distance noticeably higher than the rest of the sample, so just to be sure let's re-run the model omitting that observation. 
+
+```{r}
+m3.4_diagnostics <- lm(G3 ~ absences_c+health_c+Dalc_c+sex*Walc_c, 
+                       df[df$cooks<.04,])
+summary(m3.4_diagnostics) # Female conditional
+length(df$cooks[df$cooks>.05])
+```
+
+This results in a small change to the health coefficient (making its p value just slightly greater than the usual .05 cutoff); however, the overall interpretation wont change much, so I'll stick with the first model. To get a sense of variation and uncertainty of estimates, let's also take a quick look at the 95% CIs.
+
+```{r}
+confint(m3.4)
+```
+
+The CI for health gets very close to zero on the lower bound. That, combined with the limited range of values (1 to 5, means that we can be confident that the mean difference between 'very healthy' and 'very unhealthy' in the population is no greater than `r 0.27834348*4` and may be as little as `r 0.001192718*4`.
+
+I'll also create some visualizations that'll come in handy when summarizing results:
+
+```{r}
+# First get predictions
+## Walc predictions
+wvs <- unique(df$Walc_c)[order(unique(df$Walc_c))]
+drink_predict <- data.frame(absences_c=0,
+                                    health_c=0,
+                                    Dalc_c=0,
+                                    sex=slist('M M M M M F F F F F'),
+                                    Walc_c=c(wvs,wvs))
+drink_predict <- cbind(drink_predict,predict(m3.4,
+                         drink_predict,
+                         interval = 'confidence'))
+colnames(drink_predict)[6:8] <- slist('final_grade lwr upr')
+drink_predict$Weekend_Alcohol <- c(1,2,3,4,5)
+
+## Health predictions
+hvs <- unique(df$health_c)[order(unique(df$health_c))]
+health_predict <- data.frame(absences_c=0,
+                                    health_c=hvs,
+                                    Dalc_c=0,
+                                    sex='F',
+                                    Walc_c=0)
+health_predict <- cbind(health_predict,predict(m3.4,
+                         health_predict,
+                         interval = 'confidence'))
+colnames(health_predict)[6:8] <- slist('final_grade lwr upr')
+health_predict$Health <- c(1,2,3,4,5)
+
+## Absence predictions
+absence_pred <- data.frame(absences_c=df$absences_c,
+                                    health_c=0,
+                                    Dalc_c=0,
+                                    sex='F',
+                                    Walc_c=0)
+absence_pred <- cbind(absence_pred,predict(m3.4,
+                         absence_pred,
+                         interval = 'confidence'))
+colnames(absence_pred)[6:8] <- slist('final_grade lwr upr')
+absence_pred$Absences <- df$absences
+
+# Logistic predictions
+logpred <- data.frame(Walc_c=wvs,
+                      sex='M',
+                      health_c=0,
+                      Walc=c(1:5))
+logpred$probability <- predict(logm2,logpred,type='response')
+
+
+# Then make graphs
+alc_graph <- ggplot(drink_predict,aes(Weekend_Alcohol,final_grade,linetype=sex)) +
+  geom_count(data=df,aes(Walc,G3,color=sex)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=.2) +
+  theme_bw()+
+  labs(y='Final Grade',x='Weekend Alcohol Consumption (1=Very Low, 5=Very High)') +
+  ggtitle('Final Grades by Weekend Alcohol Consumption and Sex')
+
+health_graph <- ggplot(health_predict,aes(Health,final_grade)) +
+  geom_count(data=df,aes(health,G3)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=.2) +
+  theme_bw() +
+  labs(y='Final Grade') +
+  ggtitle('Final Grades by Health (1=Very Bad, 5=Very Good)')
+
+abs_graph <- ggplot(absence_pred, aes(Absences,final_grade)) +
+  geom_count(data=df,aes(absences,G3)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=lwr,ymax=upr),alpha=.2) +
+  theme_bw() +
+  labs(y='Final Grade') +
+  ggtitle('Final Grades by Absences')
+
+log_graph <- ggplot(logpred, aes(Walc,probability)) +
+  geom_line() +
+  labs(x='Weekend Alcohol Comsumption (1=Very Low, 5=Very High)',
+       y='Probability') +
+  ggtitle('Probability of Missing Any Classes by Alcohol Consumption') +
+  theme_bw()
+```
+
+# Summary/Visualization, or What's the Story?
+
+Ideally, I like to finish projects with a summary that is succinct and [tells a story](https://alexdatasci.com/my-approach-to-data-analysis/). It should have a short introduction, a brief explanation of variables and methods and a conclusion that sums up results and implications. Language should be non-technical whenever possible, while also clearly conveying important concepts like uncertainty and other limitations. Finally, proper visualizations should be used to sum up results (fewer=better).
+
+**Introduction**
+
+A variety of factors influence academic performance. While most teachers can annectdotally describe why some students perform better than others, it can also be useful to use statistical techniques to tease apart what predicts performance under which circumstances while taking into account other factors. Here, I've analyzed how sex, health, and alcohol consumption are associated with school attendance and academic performance. 
+
+**Methods**
+
+I looked at student performance of two Portuguese schools in one subject (Portuguese). I used multiple regression to predict final grades using the following variables:
+
+* Sex (male or female)
+* Dalc - (workday alcohol consumption, from 1 - very low to 5 - very high)
+* Walc - (weekend alcohol consumption, from 1 - very low to 5 - very high)
+* health - (current health status, from 1 - very bad to 5 - very good)
+* absences - (number of school absences)
+
+In addition to their individual contributions, I looked at whether they predicted grades differently for males than females. 
+
+**Conclusions**
+
+*Absences*
+
+```{r echo=F}
+abs_graph
+```
+
+Absences negatively predict final grades, regardless of sex, health, or drinking behavior. There's a lot of variation overall, but on average students with 15 absences will acheive a grade about 1.5 points lower than students with no absences.
+
+```{r echo=F}
+log_graph
+```
+
+Increased weekend alcohol consumption does predict absences, controlling for sex and health. A student who drinks very little on the weekends will have a 50% chance of missing any classes on average. Conversely, a student who drinks very heavily on the weekend will have a 75% chance of missing any classes. Sex and health did not predict the school absences.
+
+*Health*
+
+```{r echo=F}
+health_graph
+```
+
+Better health technically predicts lower grades; however, the difference between very healthy and very unhealthy students is less than 1 point and, taking into account the confidence interval, may be as small as 4/1000 of a point. This is a situation where 'significant' likely doesn't mean 'meaningful'.
+
+*Sex and Alcohol Consumption*
+
+```{r echo=F}
+ggdf <- melt(df[,slist('sex G3')],id.vars='sex')
+ggplot(ggdf,aes(x=sex,value)) +
+  geom_boxplot() +
+  labs(x='Sex',y='Final Grade') +
+  theme_bw()
+```
+
+At first glance, it appears males perform slightly more poorly than females. However, when alcohol (which males consume in greater quantities and frequencies) is taken into account, the difference between males and females isn't significant. 
+
+```{r echo=F}
+alc_graph
+```
+
+Among males, more weekend alcohol consumption predicts lower grades. Heavy weekend drinkers will have a final grade 1.7 points lower on average than those who drink very little. Among females, weekend alcohol consumption is not predictive of final grades. 
+
+**What does this all mean?**
+
+There is a lot of variation overall in grades, and the role of the variables summarized here only explains a small portion of it (about 9% based on our regression model). The finding that better health is associated with slightly lower grades was unexpected, but should also be interpreted with a grain of salt. Between the very small magnitude and amount of uncertainty assocaited with the estimate, any differences in grades based on health alone are probably not very meaningful.
+
+On the other hand, absences do clearly predict grades, as does weekend alcohol consumption (for males only). Those who drink on the weekend are also more likely to miss any school. Taken together, although the effects may be modest and probably only make a difference of a couple points on average, school absences and weekend drinking are attractive targets for interventions to improve academic performance, particularly for young men.
+
+# What now?
+
+This first post was a way for me to get a feel for how I want to present projects on the site. I'll tackle more complex datasets, problems, and tools as I continue to post. I also home to continue to improve the quality of posts as I get more used to this format, develop ideas for projects, and my work becomes more streamlined. Still, this should give you an idea of my general approach to soloving problems with data analysis, and what you can expect from the site. 
+
+I'm not going to deal with comments on this site, but if you have questions or would like to get in touch, feel free to email me at alex@alexdatasci.com.
+
