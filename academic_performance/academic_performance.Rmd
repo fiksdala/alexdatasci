@@ -426,4 +426,3 @@ On the other hand, absences do clearly predict grades, as does weekend alcohol c
 This first post was a way for me to get a feel for how I want to present projects on the site. I'll tackle more complex datasets, problems, and tools as I continue to post. I also home to continue to improve the quality of posts as I get more used to this format, develop ideas for projects, and my work becomes more streamlined. Still, this should give you an idea of my general approach to soloving problems with data analysis, and what you can expect from the site. 
 
 I'm not going to deal with comments on this site, but if you have questions or would like to get in touch, feel free to email me at alex@alexdatasci.com.
-
