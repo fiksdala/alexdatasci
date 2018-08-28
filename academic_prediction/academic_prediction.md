@@ -12,6 +12,8 @@
 Introduction
 ============
 
+&ast;I recently learned that LaTeX equations written in .Rmd files are not properly rendered on github. I've also learned there isn't much to do about it. If a solution emerges, I'll adjust these files, but for now they will not look correct.
+
 My [last post](https://alexdatasci.com/academic-performance-first-post/)
 focused on using regression analyses to gain insights into academic
 performance. That emphasis on associations is familiar territory for
