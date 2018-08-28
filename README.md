@@ -10,6 +10,7 @@ This repository contains full code, summaries, and other related documents of th
 Every project will be located in a dedicated folder within this repository. For convenience, I'll include links to project summaries below.
 
 [Academic Performance (first post)](https://github.com/fiksdala/alexdatasci/blob/master/academic_performance/academic_performance.md)
+[Academic Prediction (elastic net regression)](https://github.com/fiksdala/alexdatasci/blob/master/academic_prediction/academic_prediction.md#introduction)
 
 ## Who am I?
 
