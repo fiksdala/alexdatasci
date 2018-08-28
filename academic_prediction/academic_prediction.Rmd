@@ -2,7 +2,7 @@
 title: "Academic Prediction"
 author: "Alexander Fiksdal"
 output: 
-  html_document:
+  md_document:
     toc: TRUE
 editor_options: 
   chunk_output_type: console
