@@ -1,5 +1,6 @@
-# Don't store anything in the data files folder
+# Don't store anything in the data files folder or cover letter folder
 /data_files
+/cover_letters
 
 # Other random files
 git-cheat-sheet-education.pdf
