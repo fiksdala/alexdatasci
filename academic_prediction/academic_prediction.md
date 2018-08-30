@@ -12,6 +12,7 @@
 Introduction
 ============
 
+<<<<<<< HEAD
 My
 <a href="https://alexdatasci.com/academic-performance-first-post/" target="_blank">last
 post</a> focused on using regression analyses to gain insights into
@@ -23,6 +24,20 @@ value of a model. For this post, I'll pretend I'm in a scenario where
 that's the case. Someone comes to me with the same type of data as last
 time that includes student-level information on various school, social,
 and family-related factors and wants to predict how well a student will
+=======
+&ast;I recently learned that LaTeX equations written in .Rmd files are not properly rendered on github. I've also learned there isn't much to do about it. If a solution emerges, I'll adjust these files, but for now they will not look correct.
+
+My [last post](https://alexdatasci.com/academic-performance-first-post/)
+focused on using regression analyses to gain insights into academic
+performance. That emphasis on associations is familiar territory for
+those of us with academic backgrounds. In industry, sometimes these sort
+of insights are exactly what's needed. Other times, individual
+associations are less important than the overall predictive value of a
+model. For this post, I'll pretend I'm in a scenario where that's the
+case. Someone comes to me with the same type of data as last time that
+includes student-level information on various school, social, and
+family-related factors and wants to predict how well a student will
+>>>>>>> 96f22450bef4fdf362be83fa808912bff083fbfb
 perform academically based on those variables. Instead of the
 'Portuguese' dataset that had ~650 observations, I'll be analyzing the
 'Math' dataset, which has only 395. Given the 32 possible predictor
