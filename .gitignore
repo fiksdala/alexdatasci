@@ -2,6 +2,9 @@
 /data_files
 /cover_letters
 
+# Or unfinished_archive
+/unfinished_archive
+
 # Or any folders named data_files
 data_files/
 
