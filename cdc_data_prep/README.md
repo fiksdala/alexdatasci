@@ -1,0 +1,3 @@
+# cdc_data_prep
+
+These python scripts outline how I cleaned and prepared the publicly available CDC Behavioral Risk Factor Surveillance System dataset for a little binary classification comparison project I did (you can find it on my website alexdatasci.com). You can find the 2017 data and documentation [here](https://www.cdc.gov/brfss/annual_data/annual_2017.html). The code in these files is pretty ugly, as I was more concerned with getting the data ready quickly than I was doing so in a way that would be readable. I might clean it up later, but for now it's just here for reference.
