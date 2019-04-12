@@ -24,6 +24,9 @@ fiksdal_resume_v1_phone.pdf
 # pickle
 *.pickle
 
+# ipython checkpoints
+.ipynb_checkpoints
+
 ##########################################################################################
 ## Plus template from https://gist.github.com/octocat/9257657 ############################
 ##########################################################################################
