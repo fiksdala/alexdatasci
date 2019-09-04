@@ -1,0 +1,229 @@
+---
+title: "Fundamentals: Hypothesis Testing"
+author: "Alexander Fiksdal"
+date: "7/1/2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Background
+
+An important part of the data science interview process involves technical interviews and/or online skills assessments. I've found that sometimes questions come up that are super tricky, involving concepts or complex questions that are specifically designed to test the limits of your math/stats/probability knowledge or skills. I'm sure everybody has a slightly different approach to preparing for these things, but personally I don't see a lot of value in worrying too much about these edge cases. I think they sort of fall into the category of "you either know it or you don't". Instead, I think time is best spent shoring up the fundamentals. These are the sort of things I've already learned in detail but don't necessarily have to explain to other people very often. I've learned that no matter how much you know that *you know* something, being able to explain things to other people is a different matter entirely (and it's easier than you'd like to admit to get caught off guard). It's a good idea to revisit the fundamentals regularly (and especially before assessments or interviews) to help prepare yourself for those situations. That's what this series is for. The concepts may be basic, but they're important, and keeping them fresh in your mind will definitely make everything easier (even the difficult edge cases). To start, let's take a look at basic hypothesis testing. This will not be an exhaustive discussion on the topic, just an overview of some of the particularly important things to consider when going about it. 
+
+# Hypothesis Testing
+
+The steps involved in traditional hypothesis testing basically look like this:
+
+- Define Null Hypothesis and alpha
+- Calculate Test Statistic
+- Calculate p-value
+- Check assumptions
+- Interpret result
+
+## Random Data Example
+
+Let's go through a simple regression example with random data. Let's say we have a normally distributed variable 'X1' that we want to use to predict a normally distributed variable 'y' controlling for 'X2'. We'll pretend to collect 1000 observations:
+
+```{r}
+set.seed(1)
+y=rnorm(1000)
+set.seed(2)
+X1=rnorm(1000)
+set.seed(3)
+X2=rnorm(1000)
+df = data.frame(y,X1, X2)
+```
+
+
+## Define Null and alpha
+
+A general research question that requires regression may simply be something along the lines of 'Does X1 predict Y controlling for X2?'. Taking that further, we can think about it in terms of the actual coefficient that the regression will produce: 'Is the slope of X1 significantly different than 0?'. For this question, we can use a t distribution.\* Our null hypothsis is pretty simple:
+
+$$B_{X1}=0$$
+
+Traditional hypothesis testing requires deciding on an alpha level. This defines our decision threshold and what type I error rate we're willing to live with. This is often set at .05. This means that if the p-value we calculate is less than .05, we will reject the null hypothesis. It also means that overall on average the test will incorrectly reject a null hypothesis 5% of the time. More on the implications of these decisions later.
+
+\* Due to the central limit theorem, as n increases, the t distribution will approach normal. With 1000 observations, a t test will give results that are essentially the same as a z test.
+
+## Calculate test statistic
+
+In R, lm() will do this for us, but it is easy to see that it is simply the estimate divided by the standard error. Standard error for each estimate is calculated using the following formula: $$\frac{RMSE}{\sigma_{X_{j}}\sqrt{(n-1)*(1-R^2_{X_{j}|X_{1}...X_{k}(without X_{j})})}}$$
+
+We can confirm that by calculating the standard error and t value manually for X1:
+
+```{r}
+m = lm(y ~ X1+X2, df)
+calc_std_err = summary(m)$sigma/(sd(X1)*sqrt((1000-1)*(1-summary(lm(X1 ~ X2, df))$r.squared)))
+calc_t = summary(m)$coefficients[2,1]/calc_std_err
+
+print(calc_std_err)
+print(calc_t)
+print(summary(m))
+```
+
+## Calculate p-value
+
+So we've calculated our test statistic. Excellent. Now we need to calculate the p-value. As with standard error and the t statistic, lm() will calculate this for us. For a quick illustration, let's take a look at what this t-distribution looks like with markers to indicate where 95% of the density is located:
+
+```{r}
+t = seq(-4,4,length=100)
+density = dt(t, 1000-2-1)
+plot(t, density, type='l')
+abline(v=1.96)
+abline(v=-1.96)
+abline(v=calc_t, col='red')
+```
+
+With this many observations, it looks very similar to a normal distribution. If the absolute value\* of the observed test statistic falls to the right of the marker, we reject the null hypothesis. In this case, we fail to reject test statistic is not beyond the critical values, so we fail to reject the null.
+
+Getting the p-value is basically just calculating the area under the curve for t values equal to or more extreme than the observed value (for two-tailed tests it is 2x the area to the right of the absolute value of the test statistic). R has many ways of calculating this for you, and lm() specifically will give you the value by default (below). We'll discuss getting the interpretation of p-values correct later.
+
+\* Two-tailed tests are the norm, so we take the absolute value to account for both tails of the distribution.
+
+```{r}
+summary(m)
+```
+
+
+## Check assumptions
+
+You could argue this isn't directly related to hypothesis testing, but it is something that you should incorporate in any analysis. Keeping assumptions of your model in mind is an ongoing process and should start before you test and be checked after. For a linear model, the assumptions include:
+
+- Existence (there should be a distribution of y at each combination of values of x)
+- Linearity (for single regression, the relationship  between x and y should be linear; for multiple, y is a linear function of all x's)
+- Homoscedasticity (the variance of y is the same across all combinations of x)
+- Normality (residuals will be normally distributed)
+- Independence (for each combination of x, y observations are independent)
+
+Some of these are taken care of in the design phase of the an experiment (independence). Some can be checked during data cleaning (existence). Finally, some can be checked by examining residuals.
+
+You can get a sense of issues related to homoscedasticity and linearity by looking at predicted values vs. residuals and predictor values vs. residuals. If there are visible patterns, something may be amiss. 
+
+**Predicted vs. Residuals**
+
+```{r}
+plot(predict(m,df), resid(m))
+```
+
+**X1 vs. Residuals**
+
+```{r}
+plot(X1, resid(m))
+```
+
+For normality of residuals, qq plots are handy and easy to construct. They plot the sorted quantile values of each point on the y axis vs. theoretical quantiles of a normal distribution on the x axis. If it's exactly normally distributed, these points will fall on the diagonal line. If the distribution is skewed, they will not. 
+
+*As a side note, I was recently asked specifically how to construct a QQ plot, and was somewhat caught off guard. When is the last time you've thought about how the theoretical quantiles in a QQ plot were calculated? For me it's just not something I had taken the time to consider. Not one to make a mistake twice I looked into it in more depth. Turns out there are a variety of ways to calculate the theoretical quantiles. Check out "rankits" and "normal probability plot" on wikipedia if you're curious. Apparently qqnorm() in R uses a formula that is roughly: normal_quantile((i-a)/(n+1-2a)), where a = 3/8 if n <= 10 and 0.5 for n >10. Knowing that, I don't feel so bad about not having that particular calculation ready off the top of my head, but it's still good to know what you're looking at.* 
+
+```{r}
+qqnorm(resid(m))
+qqline(resid(m))
+```
+
+These residuals look good.
+
+## Interpretation
+
+We have our test statistic and p-value, we've checked assumptions. Now we can interpret. In this example of random data, we unsurprisingly fail to reject the null hypothesis and conclude that the slope of X1 is not statistically significantly different than 0. Therefore, X1 does not predict y. 
+
+What if instead we had a p-value of .04? In that case, the test statistic is beyond the critical value, and we would reject the null hypothesis that the slope of X1 is 0. In that case, we would determine that X1 does predict y. Contrary to what some may think, this is not the end of our interpretation. Instead, it is just the beginning. Interpretation of statistically significant effects is its own topic, but it essentially deals with settling the question of whether an observed effect is *meaningful*. This is where domain knowledge and experience come into play. There is no statistical test on the planet that can tell you--on its own--whether a statistically significant result is meaningful. A few things to consider when making that determination include:
+
+- Effect size: How big of an effect are we talking about? There are a few statistical methds to quantifying effect size, but those stats require interpretation as well.
+- Reproducibility: Can this result be reproduced? Has it already? All statistical tests are subject to type I error, and it is impossible to know whether your specific result is an error or not. Reproducing results helps sort that out and can give you more or less confidence in your results. 
+- Practical differences: Related to effect size, this applies domain knowledge and experience to a problem. Given the effect size, does the observed effect make any practical difference to the particular question at hand?
+
+In sum, hypothesis testing is a very strong tool to help answer the question of whether or not a particular effect exists. From there it takes experience, knowledge, and common sense to put those results into context and to make actual use of the results.
+
+# Important Considerations
+
+## What is a p-value anyway?
+
+There is a ton of confusion out there about what a p-value actually is and what one can actually tell us. Often this is due to people reading what they *want* a p-value to do instead of what it actually does. People often want to know whether or not a particular effect exists, and they want to know that with some measure of confidence. This may manifest with a question such as: "What is the probability that this effect is real?" Which is the same as asking: "What is the probability that the null hypothesis is false?" In essence, they want to know the probability of the *hypothesis* given the *data*. Understandable as that desire is, these are not questions a p-value can answer. P-values only let you know the probability of the *data* given the *hypothesis*. Specifically, the null hypothesis. We cannot say anything about the probability of any specific hypothesis because *the test already assumes the null hypothesis is true*. 
+
+Another common question people want answered is: "What are the odds that this effect is real?". Again, an understandable desire but one a p-value cannot answer. The p-value gives probabilities of the data in the context of the test itself. Meaning that given a p-value of .04, for example, *overall* you can expect a completely random sample drawn from a population where the null hypothesis is true to produce a test statistic as or more extreme as the one observed 4% of the time using this test. That is, the p-value refers to *long-term type I error rates* of the test *on average*. It is impossible to know whether any particular p-value you observe is the result of coming from a different distribution than what is specified in the null hypothesis (real effect!) or if it simply the result of a type I error (no effect/chance!). This is especially tricky since humans are not great at intuitively understanding probability. A 5% false positive rate sounds pretty good on the surface. Our brains automatically tend to think of the inverse (95% is a big percentage!!!). But really, events that have a 1 in 20 chance of happening occur around us quite often. Finally, a 5% false positive rate often leads people to assume--incorrectly--that they can be 95% confident in a result. Which is not the case at all. This gets even more complicated when multiple testing enters the picture (below).
+
+To sum up, 
+
+- p-values refer to the probability of the data given the null hypothesis
+- p-values refer to long-term (average) probabilities of type I error
+- p-values cannot tell you the probability of any hypothesis
+- p-values cannot tell you how confident you can be in a specific result
+
+## Multiple Testing
+
+Hypothesis testing and p-values get even more complicated when testing multiple hypotheses. This makes sense when you think about what we know about p-values: they give the probability of a random sample producing a test statistic as or more extreme as the one observed completely by chance (i.e. null hypothesis is true). It then obviously follows that if you test a bunch of different hypotheses, your odds of getting a result completely by chance increase. When that happens, should you be making your decision to reject null hypotheses the same way you would with a single test? Obviously not. First, I'll demonstrate the problem using random data.
+
+I've defined a couple of functions below that gather samples of size n with m predictors, then returns the number of predictors that have a p-value less than a specified alpha level. What happens when we run 100 regressions using 100 different random samples of one predictor with 100 observations each? How many times does our predictor 'predict' y with a p-value < .05?
+
+```{r}
+num_reject = function(n=1000, m=1, a=.05){
+  y=rnorm(n)
+  df = data.frame(y)
+  for( i in 1:m){
+    x = rnorm(n)
+    df = cbind(df, x)
+  }
+  colnames(df) = c('y', paste0('x', 1:m))
+  sum(summary(lm(y ~ .-y, df))$coefficients[2:(m+1),4]<a)
+}
+
+rep_num_reject = function(n_rep=1, n=1000, m=1, a=.05){
+  sum_sig = 0
+  for(i in 1:n_rep){
+    sum_sig = sum_sig + num_reject(n=n, m=m, a=a)
+  }
+  sum_sig
+}
+
+rep_num_reject(n_rep=100, n=100, m=1)
+```
+
+This varies each time due to the random number generator, but it's almost always more than 0, and usually close to 5, just as expected. This tells us that for every 100 results of a simple regression with one variable, a completely random variable will produce a p-value of .05 or less about 5 times.
+
+Now let's try something bigger. What happens if we fit a regression model on 1000 random samples of 100 random variables predicting a random y DV, then repeat that process 1000 times? On average, how many predictors have p-values < .05?
+
+```{r}
+n_sig = rep_num_reject(n_rep=1000, n=1000, m=100)
+n_sig/1000
+```
+
+Not surprisingly, the average is very close to 5. This means that for every large multiple regression with 100 variables, you can expect about 5 coefficients *on average* to have p-values <.05 purely due to chance. It's entirely possible to have even more (or less) than that for any given sample.
+
+This is all very obvious and proves what we already know to be true: that more tests increase the likelihood that you'll end up with a type I error somehwere. Even though this is obvious, I think it's a useful exercise to literally see random variables produce "significant" p-values. It's easy to become attached to research and feel in your gut that a given finding reflects real differences. Staring random results like this in the face drive home how the probability actually shakes out in practice, and can help temper your biases. 
+
+So what do you do to combat these effects? There are a few options from the very conservative bonferroni correction (usually too conservative) to other approaches that focus on controlling the false discovery rate. Some approaches are more effective than others and make different assumptions (independence of observations is a common and tricky one), but I think in practice the best approaches start before testing. Specifically, reducing or combining hypotheses to limit the number of tests in the first place is easy and helps clear up your objectives. Whenever possible it's better to have a limited number of highly targeted hypotheses than a broad fishing expedition. When that's not possible, use existing correction approaches combined with your intuition of the theoretical model you're working with. Even when effects are "significant", interogate whether they make sense in the context of a broader model, whether effects are occuring in concert with others in ways that make sense or if the directionality seems right. As with all things, it requires a comprehensive evaluation that incorporates a broader context. And finally, replication sorts everything out in the end. If one observed effect is due entirely to noise, you are very likely to observe mean-reversion of the parameters of interest back to non-significant ranges after repeated testing.
+
+## Sample size, or Is the null hypothesis ever really true?
+
+If the difference in the population is non-zero but small, then detecting statistically significant effects is a direct function of sample size. For any non-zero effect in the population--regardless of how small--it is possible to get significant results given a large enough n. This is self-evident when you consider that standard error will decrease as sample size increases. A smaller standard error in the denominator will increase the calculated t-value, thus decreasing the p-value. We can demonstrate this effect pretty easily with random data. Let's draw 100 random samples from normal distributions with mean=0 and mean=.01, then take the average of the p-values for those 100 tests. We'll then repeat that with samples of increasing size and observe how that influences the average p-values. The horizontal line in the plot shows the standard .05 cutoff.
+
+```{r}
+get_ave_p = function(n){
+  output = c()
+  for(i in 1:100){
+    output = append(output, 
+                    t.test(rnorm(n,mean=.01), 
+                           rnorm(n,mean=0))$p.value)
+  }
+  mean(output)
+}
+
+mean_p = c()
+for(i in seq(2000,200000,length=10)){
+  mean_p = append(
+    mean_p, get_ave_p(i)
+  )
+}
+plot(seq(2000,200000,length=10),mean_p,
+     xlab='n', ylab='Average p-value',
+     main='p-values of 100 random-sample t-tests, N(0,1) vs. N(.01,1)')
+abline(h=.05)
+```
+
+This shows what we already know from looking at the equations: as sample size increases, p-values decrease--even for population-level differences that may be meaningless in practice. This also brings up larger somewhat philosophical questions regarding frequentist inference. Is the typical null hypothesis (e.g. mean difference=0, slope=0, etc.) EVER actually true in the population? For the vast majority of questions, the answer is almost certainly no. This doesn't invalidate the utility of this type of hypothesis testing, but keeping it in mind may inform how you set up your null hypotheses, interpret results, or push you to try other approaches if circumstances call for it (e.g. Bayesian Inference).
+

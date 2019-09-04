@@ -1,0 +1,191 @@
+---
+title: 'Fundamentals: Probability Distribution Basics'
+author: "Alexander Fiksdal"
+date: "7/3/2019"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Background
+
+# Discrete
+
+## Bernouli
+
+A Bernouli random variable is simply a variable that can take on one of two values with fixed probabilities:
+
+$$p(0) = 1-p$$
+$$p(1) = p$$
+
+For example, if X=1 if a single roll of a dice = 1 and X=0 for all other outcomes, the probability mass function would look like this:
+
+```{r}
+library(ggplot2)
+ggplot(data.frame(X=c('0','1'),p=c(5/6,1/6)),
+       aes(X,p)) +
+  geom_bar(stat = 'identity') +
+  theme_classic() 
+```
+
+## Binomial
+
+A binomial variable is similar to a Bernouli variable, except it refers to multiple trials. Specifically, it refers to the number of 'successes' out of a certain number of independent trials, each with a probability p of 'success' and 1-p of failure. The probability mass function can therefore be defined as:
+
+$$p(i) = \binom{n}{i}p^{i}(1-p)^{n-i}$$
+where
+$$\binom{n}{i}=\left(\frac{n!}{(n-i)!i!}\right)$$
+and
+$$n=total\ number\ of\ trials$$
+$$i=number\ of\ successes$$
+$$p=probability\ of\ success$$
+
+Some examples of binomial probability mass functions for coin tosses with various parameters i and n are displayed below.
+
+```{r}
+ggplot(
+  data.frame(
+    n=as.factor(c(rep(10,11),
+                  rep(20,21),
+                  rep(30,31))),
+    i=c(0:10,0:20,0:30),
+    p=c(dbinom(0:10,10,.5),
+        dbinom(0:20,20,.5),
+        dbinom(0:30,30,.5))),
+  aes(i,p,color=n)
+  ) +
+  geom_point() +
+  theme_classic()
+```
+
+Given how these PMFs are constructed, it's self-evident that a Bernouli variable is simply a special case of a binomial variable where n=1.
+
+## Geometric
+
+A geometric random variable is similar to a binomial variable, except that instead of representing i successes out of n trials it is the number of trials necessary to achieve 1 success. It can be summarized pretty simply as:
+
+$$p(n)=(p-1)^{n-1}p$$
+
+As an example, the PMF for coin flips for various n looks like:
+
+```{r}
+plot(1:10, dgeom(1:10,.5),
+     xlab='n', ylab='p')
+```
+
+Note that because the events are independent, the limit of the sum of probabilities as n approaches infinity = 1, or:
+
+$$\sum_{n=1}^{\infty}{p(n)=1}$$
+
+## Poisson
+
+Poisson variables are a little different than other discrete variables. Instead of representing variations on binary outcomes, they take on a discrete number of occurences that take place with a known rate over a given time frame (while still being independent). It can be summarized as:
+
+$$p(i)=e^{-\lambda} \frac{\lambda^{i}}{i!}$$
+where
+$$\lambda=expected\ number\ of\ occurences\ during\ interval$$
+
+For example, if an experimenter always schedules a fixed number of participants for a study per week and on average 3 cancel in any given week (i.e. $\lambda$=3), the probability mass function would look like this:
+
+```{r}
+plot(0:10,
+     dpois(0:10,3),
+     xlab='i', ylab='p')
+```
+
+# Continuous
+
+Continuous random variables cannot take on a probability mass function because the probability of any specific value occuring=0. This is because there are infinite "bins" of possible values. Instead, we use a probability *density* function, which can be used to find the probability that a value will fall between some specified boundaries. This probability can be defined as the area under the curve of the density function given some boundaries. Completing the actual integrations of some of these distributions can be a fairly involved process, so I won't cover that part here. 
+
+## Uniform
+
+Uniform random variables are very simple. Values of uniformly distributed variables are equally likely, meaning that the probability of any value occuring within a particular subinterval of a larger interval space is simply the length of that subinterval. For example, for the sub-interval of 25-75 within 0-100, the probability density function would look like:
+
+```{r}
+plot(1:100,
+     c(rep(0,25),
+       rep(1/50,50),
+       rep(0,25)),
+     'l',
+     xlab='X',
+     ylab='p')
+```
+
+Which in turn makes the following cummulative probability function:
+
+```{r}
+plot(1:100,
+     c(rep(0,25),
+       seq(1/50,1,1/50),
+       rep(1,25)),
+     'l',
+     xlab='X',
+     ylab='p')
+```
+
+Overall, the probability that a value will will fall within a particular sub-interval is simply the length of the sub-interval/length of the interval, so .5 in this case. All pretty straightforward.
+
+## Exponential
+
+Exponential random variables can be thought of as the continuous version of the geometric discrete variable. Their similiarity is evident when you look at the exponential probability density function. That function is defined as:
+
+$f(x) = \lambda e^{-\lambda x}$ if x>=0
+$f(x) = 0$ if x<0
+
+where
+
+$$\lambda = rate\ parameter$$
+The PDF for various values of $\lambda$ is displayed below.
+
+```{r}
+ggplot(
+  data.frame(
+    x=rep(seq(0,5,length=100),3),
+    lambda=as.factor(c(rep(1,100), rep(2,100), rep(.5,100))),
+    density=c(dexp(seq(0,5,length=100),1), 
+              dexp(seq(0,5,length=100),2), 
+              dexp(seq(0,5,length=100),.5))
+  ),
+  aes(x,density,color=lambda)
+) +
+  geom_line() +
+  theme_classic()
+```
+
+The corresponding cummulative density functions would look like this:
+
+```{r}
+ggplot(
+  data.frame(
+    x=rep(seq(0,5,length=100),3),
+    lambda=as.factor(c(rep(1,100), rep(2,100), rep(.5,100))),
+    density=c(pexp(seq(0,5,length=100),1), 
+              pexp(seq(0,5,length=100),2), 
+              pexp(seq(0,5,length=100),.5))
+  ),
+  aes(x,density,color=lambda)
+) +
+  geom_line() +
+  theme_classic()
+```
+
+## Chi-Square
+
+The Chi-Square distribution is a special case of a gamma distribution that is widely used in statistics
+
+## Normal
+
+# Selected Examples and Expected Values
+
+## Binomial
+
+## Bernouli
+
+## Poisson
+
+## Normal
+

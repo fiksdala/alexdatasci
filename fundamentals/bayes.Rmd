@@ -1,0 +1,21 @@
+---
+title: "Bayes’ Formula"
+author: "Alexander Fiksdal"
+date: "7/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Background
+
+## Conditional Probability
+
+## Bayes' Formula
+
+# Examples
+
+# Bayesian vs Frequentist Inference
+
