@@ -1,6 +1,7 @@
-# Don't store anything in the data files folder or cover letter folder
+# Don't store anything these folders
 /data_files
 /cover_letters
+/edf_files
 
 # Or unfinished_archive
 /unfinished_archive
@@ -18,8 +19,12 @@ fiksdal_resume_v1_phone.pdf
 
 # Don't include rprojects or .rdata or .rhistory
 *.Rproj
-.Rdata
-.Rhistory
+*.Rdata
+*.Rhistory
+
+# Matlab and edf
+*.mat
+*.edf
 
 # pickle
 *.pickle
