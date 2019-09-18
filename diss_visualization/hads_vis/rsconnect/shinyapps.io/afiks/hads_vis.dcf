@@ -1,0 +1,10 @@
+name: hads_vis
+title:
+username:
+account: afiks
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1211813
+bundleId: 2424637
+url: https://afiks.shinyapps.io/hads_vis/
+when: 1568826562.69336

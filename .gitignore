@@ -17,10 +17,11 @@ fiksdal_resume_v1_phone.docx
 fiksdal_resume_v1_phone.pdf
 
 
-# Don't include rprojects or .rdata or .rhistory
+# Don't include rprojects or .rdata or .rhistory or rds
 *.Rproj
 *.Rdata
 *.Rhistory
+*.rds
 
 # Matlab and edf
 *.mat
