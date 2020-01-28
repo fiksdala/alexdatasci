@@ -1,23 +1,23 @@
 # data-projects
-Occasionally I do data science side projects for practice and/or to learn new skills. This repo contains the code and content of those projects.
+Occasionally I do data science side projects for practice and/or to learn new skills. This repo contains the code and content of those projects. These projects were also formerly available on my now-defunct personal website 'alexdatasci.com'. Any references or links you may find to that domain will not work; however, all the code and content is still available in this repo.
 
 ## What's in this repository?
 
-This repository contains full code, summaries, and other related documents of my data projects. Completed projects are linked below and have their own README.md files. Any other directories in data-projects that do not have links below are not complete and may not have adequate documentation.
+This repository contains full code, summaries, and other related documents of my data projects. Completed projects are linked below. Any other directories in data-projects that do not have links below are not complete and may not have adequate documentation.
 
 ## Projects
 
-Every project will be located in a dedicated folder within this repository. For convenience, I'll include links to finished projects below. Most projects are viewable as Jupyter notebooks.
+Every project will be located in a dedicated folder within this repository. For convenience, I'll include links to finished projects below. Most projects are viewable as Jupyter notebooks or HTML.
 
 [A little bit of XML and Python](https://github.com/fiksdala/data-projects/blob/master/navigating_xml/xml_navigation.md)
 
 [ML Binary Classification (6 parts)](https://github.com/fiksdala/data-projects/tree/master/cdc_binary_classification)
 
-[Fundamentals Review: Hypothesis Testing](https://github.com/fiksdala/data-projects/tree/master/fundamentals)
+[Fundamentals Review: Hypothesis Testing](https://htmlpreview.github.io/?https://github.com/fiksdala/data-projects/blob/master/fundamentals/fundamentals_hyptest1.html)
 
-[Fundamentals: Bayesian Inference](https://github.com/fiksdala/data-projects/tree/master/bayes)
+[Fundamentals: Bayesian Inference](https://github.com/fiksdala/data-projects/blob/master/bayes/bayesian.ipynb)
 
-[Cortisol Time Series Clustering](https://github.com/fiksdala/data-projects/tree/master/cort_time_series_cluster)
+[Cortisol Time Series Clustering](https://github.com/fiksdala/data-projects/blob/master/cort_time_series_cluster/cort_cluster.ipynb)
 
 [Cortisol Response Visualization: R Shiny](https://github.com/fiksdala/data-projects/tree/master/diss_visualization)
 
