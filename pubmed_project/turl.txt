@@ -1,0 +1,197 @@
+Pubmed-entry ::= {
+  pmid 30513499,
+  medent {
+    em std {
+      year 2018,
+      month 12,
+      day 5,
+      hour 6,
+      minute 0
+    },
+    cit {
+      title {
+        name "Associations between symptoms of depression and anxiety and
+ cortisol responses to and recovery from acute stress."
+      },
+      authors {
+        names std {
+          {
+            name ml "Fiksdal A",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States."
+          },
+          {
+            name ml "Hanlin L",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States."
+          },
+          {
+            name ml "Kuras Y",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States."
+          },
+          {
+            name ml "Gianferante D",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States."
+          },
+          {
+            name ml "Chen X",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States."
+          },
+          {
+            name ml "Thoma MV",
+            affil str "Division of Psychopathology and Clinical Intervention,
+ University of Zurich, Zurich, Switzerland."
+          },
+          {
+            name ml "Rohleder N",
+            affil str "Department of Psychology and Volen National Center for
+ Complex Systems, Brandeis University, Waltham, MA, United States; Chair of
+ Health Psychology, Friedrich-Alexander-University Erlangen-Nuremberg,
+ Erlangen, Germany. Electronic address: nicolas.rohleder@fau.de."
+          }
+        }
+      },
+      from journal {
+        title {
+          iso-jta "Psychoneuroendocrinology",
+          ml-jta "Psychoneuroendocrinology",
+          issn "1873-3360",
+          name "Psychoneuroendocrinology"
+        },
+        imp {
+          date std {
+            year 2019,
+            month 4
+          },
+          volume "102",
+          pages "44-52",
+          language "eng",
+          pubstatus ppublish,
+          history {
+            {
+              pubstatus received,
+              date std {
+                year 2018,
+                month 8,
+                day 16
+              }
+            },
+            {
+              pubstatus revised,
+              date std {
+                year 2018,
+                month 10,
+                day 25
+              }
+            },
+            {
+              pubstatus accepted,
+              date std {
+                year 2018,
+                month 11,
+                day 23
+              }
+            },
+            {
+              pubstatus other,
+              date std {
+                year 2020,
+                month 4,
+                day 1
+              }
+            },
+            {
+              pubstatus pubmed,
+              date std {
+                year 2018,
+                month 12,
+                day 5,
+                hour 6,
+                minute 0
+              }
+            },
+            {
+              pubstatus medline,
+              date std {
+                year 2018,
+                month 12,
+                day 5,
+                hour 6,
+                minute 0
+              }
+            },
+            {
+              pubstatus other,
+              date std {
+                year 2018,
+                month 12,
+                day 5,
+                hour 6,
+                minute 0
+              }
+            }
+          }
+        }
+      },
+      ids {
+        pubmed 30513499,
+        pii "S0306-4530(18)30849-7",
+        doi "10.1016/j.psyneuen.2018.11.035",
+        other {
+          db "pmc",
+          tag str "PMC6420396"
+        },
+        other {
+          db "mid",
+          tag str "NIHMS1515580"
+        },
+        other {
+          db "ELocationID pii",
+          tag str "S0306-4530(18)30849-7"
+        },
+        other {
+          db "ELocationID doi",
+          tag str "10.1016/j.psyneuen.2018.11.035"
+        }
+      }
+    },
+    abstract "BACKGROUND: Anxiety disorders and major depressive disorder
+ (MDD) have been associated with increased and blunted HPA axis reactivity to
+ social stress. However, research focusing on associations between HPA axis
+ responses to stress and symptoms of anxiety and depression among individuals
+ without a diagnosis remains an understudied area of research. METHODS: One
+ hundred forty-three adults (52% female) completed the Trier Social Stress
+ Test (TSST). Symptoms of depression and anxiety were assessed prior to the
+ TSST using the anxiety and depression subscales of the Hospital Anxiety and
+ Depression Scale (HADS). HPA axis responses were assessed by measuring
+ salivary cortisol at baseline and following the TSST. Reactivity to and
+ recovery from stress were assessed using multilevel growth modeling
+ controlling for age, BMI, and sex among the full sample and a subset of
+ cortisol responders (n = 72). RESULTS: Anxiety symptoms were positively
+ associated with flatter recovery slopes among the full sample (t(122.3) =
+ 2.082, p = .039). Among cortisol responders, depression symptoms were
+ associated with steeper reactivity (t(63.32) = 2.53, p = .026) and recovery
+ (t(58.75)=-2.20, p = .03). Anxiety symptoms were associated with marginally
+ flatter reactivity (t(64.00)=-1.97, p = .053) and significantly flatter
+ recovery (t(59.22) = 2.29, p = .025). CONCLUSION: Symptoms of anxiety and
+ depression among individuals without a psychiatric diagnosis are associated
+ with blunted and exaggerated cortisol responses to and recovery from stress.
+ Such patterns could indicate increased risk for unhealthy HPA axis
+ dysregulation, allostatic load, and disease.",
+    idnum {
+      "T32 GM084907/GM/NIGMS NIH HHS"
+    },
+    pmid 30513499,
+    pub-type {
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, N.I.H., Extramural"
+    },
+    status premedline
+  }
+}
+
+

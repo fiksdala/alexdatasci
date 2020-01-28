@@ -1,0 +1,1343 @@
+1. Author(s): Gerontologicheskoe obshchestvo (Rossiĭskai︠a︡ akademii︠a︡ nauk)
+Title Abbreviation: Adv Gerontol
+Title(s): Advances in gerontology = Uspekhi gerontologii/ Rossiĭskai︠a︡ akademii︠a︡ nauk, 
+Gerontologicheskoe obshchestvo.
+Publication Start Year: 19uu
+Publication End Year: 
+Country of Publication: Russia (Federation)
+Publisher: Sankt-Peterburg : Ėskulap,
+Description: v.
+Language: English, Russian
+ISSN: 1561-9125(Print); 1561-9125(Linking)
+LCCN: 2001243083
+Fully Indexed In: MEDLINE: v6n1, 2001-; PubMed: v6n1, 2001-; Index medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Print
+MeSH: Geriatrics*
+Publication Type(s): Periodical
+Notes: Order of titles varies. Some issues have individual titles. Description based on:
+Vol. 5 (2000); title from cover. In English.
+NLM ID: 100971443[Serial]
+
+2. Author(s): Deutsche Gesellschaft für Medizinische Physik.; Österreichische Gesellschaft
+für Medizinische Physik.; Schweizerische Gesellschaft für Strahlenbiologie und 
+Medizinische Physik.
+Title Abbreviation: Z Med Phys
+Title(s): Zeitschrift für medizinische Physik.
+Publication Start Year: 19uu
+Publication End Year: 
+Frequency: Four issues a year
+Country of Publication: Germany
+Publisher: Jena [Germany] : Gustav Fischer Verlag,
+Latest Publisher: <2001->: Jena, Germany : Urban & Fischer
+Description: v.
+Language: German, English
+ISSN: 0939-3889(Print); 1876-4436(Electronic); 0939-3889(Linking)
+LCCN: 00-243416
+Electronic Links: , http://www.sciencedirect.com/science/journal/09393889
+Fully Indexed In: MEDLINE: v11n1, 2001-; Index medicus
+In: PubMed: v11n1, 2001-; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Radiography; Radionuclide Imaging; Radiotherapy; Technology, Radiologic*; Technology, Radiologic/instrumentation*
+Publication Type(s): Periodical
+Notes: Description based on: 1998, Nr. 2; title from cover. Also issued online. Articles
+chiefly in German with some English; abstracts and tables of contents in both
+languages Issued by: Deutsche Gesellschaft für Medizinische Physik;
+Österreichische Gesellschaft für Medizinische Physik; and: Schweizerische
+Gesellschaft für Strahlenbiologie und Medizinische Physik.
+Other ID: (OCoLC)44773911
+NLM ID: 100886455[Serial]
+
+3. Author(s): National Institutes of Health (U.S.). Office of Extramural Research.
+Title Abbreviation: NIH Guide Grants Contracts
+Title(s): NIH guide for grants and contracts/ NIH.
+Publication Start Year: 19uu
+Publication End Year: 
+Frequency: Irregular
+Country of Publication: United States
+Publisher: Bethesda, MD : NIH Office of Extramural Research
+Language: English
+SuDocs Number: HE 20.3008/2:
+ISSN: 1551-8965(Electronic); 1551-8965(Linking)
+LCCN: sn 99028026
+Electronic Links: , http://grants.nih.gov/grants/guide/index.html
+Fully Indexed In: MEDLINE: 1998-; PubMed: 1998-; Index medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Research Support as Topic*; Research; Training Support
+Publication Type(s): Directory
+Notes: The Guide archives is organized first by year and then by weekly publication date
+Description based on: Jan. 17, 1992; title from NIH guide web page caption
+(viewed Mar. 18, 1999). Issues for Jan. 24, 1992- also called v. 21, no. 3- Also 
+issued online.
+Other ID: (OCoLC)40994722(DNLM)SR0093837(s)
+NLM ID: 9810664[Serial]
+
+4. Author(s): Sociedad Española de Medicina de Emergencias.
+Title Abbreviation: Emergencias
+Title(s): Emergencias : revista de la Sociedad Española de Medicina de Emergencias.
+Publication Start Year: 19uu
+Publication End Year: 
+Frequency: Bimonthly
+Country of Publication: Spain
+Publisher: Madrid : Saned,
+Description: v.
+Language: Spanish, English
+ISSN: 1137-6821(Print); 2386-5857(Electronic); 1137-6821(Linking)
+LCCN: sn98-39274
+Electronic Links: , http://emergencias.portalsemes.org/
+Fully Indexed In: MEDLINE: v29n1, Feb. 2017-
+In: PubMed: v29n1, Feb. 2017-; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Emergency Medical Services; Emergency Medicine; Spain
+Publication Type(s): Periodical
+Notes: Description based on: Vol. 9, no. 1 (enero-feb. 1997); title from cover. Also
+issued online. Summaries also in English.
+Other ID: (DNLM)SR0091998(s)(OCoLC)39278946
+NLM ID: 9805751[Serial]
+
+5. Author(s): National Cancer Registrars Association.
+Title Abbreviation: J Registry Manag
+Title(s): Journal of registry management.
+Publication Start Year: 19uu
+Publication End Year: 
+Frequency: Quarterly
+Country of Publication: United States
+Publisher: Lenexa, KS : National Cancer Registrars Association,
+Description: v.
+Language: English
+ISSN: 1945-6123(Print); 1945-6131(Electronic); 1945-6131(Linking)
+LCCN: sn98-39437
+Electronic Links: , http://www.ncra-usa.org/About/Publications/Journal-of-Registry-Management
+Fully Indexed In: MEDLINE: v36n1, spring 2009-
+In: PubMed: v36n1, spring 2009-; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Print
+MeSH: Neoplasms/epidemiology; Registries; United States/epidemiology
+Publication Type(s): Periodical
+Notes: Description based on: Vol. 24, no. 1 (Feb. 1997); title from cover. Also issued
+online. Official journal of the National Cancer Registrars Association.
+Other ID: (DNLM)SR0090137(s)(OCoLC)40077075
+NLM ID: 9804163[Serial]
+
+6. Author(s): Sociedad Luso-Española de Neurocirugía.; Sociedad Española de Neurocirugiá.
+Title Abbreviation: Neurocirugia (Astur)
+Title(s): Neurocirugía.
+Publication Start Year: 19uu
+Publication End Year: 
+Country of Publication: Spain
+Publisher: Asturias [Spain] : Artes Gráficas,
+Latest Publisher: Madrid : Elsevier España
+Description: v.
+Language: Spanish, English
+ISSN: 1130-1473(Print); 2340-6305(Electronic); 1130-1473(Linking)
+Electronic Links: , http://www.sciencedirect.com/science/journal/11301473
+Fully Indexed In: MEDLINE: v12n1, 2001-; Index medicus
+In: PubMed: v12n1, 2001-; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Neurosurgery*
+Publication Type(s): Periodical
+Notes: Description based on: Vol. 2, no. 2 (1991); title from cover. Published: Madrid :
+Siglo, <2000-> Also issued online. Table of contents and summaries also in
+English. Official publication of the Sociedad Luso-Española de Neurocirugía,
+<1991->; Sociedad Española de Neurocirugiá <2000->
+Other ID: (OCoLC)45745051(DNLM)SR0076818(s)
+NLM ID: 9425251[Serial]
+
+7. Author(s): Corporación Editora Médica del Valle.; Academia de Medicina del Valle del
+Cauca.; Asociación Colombiana de Medicina Interna. Capítulo del Valle
+Cauca-Nariño.; Sociedad Colombiana de Epidemiología.
+Title Abbreviation: Colomb Med (Cali)
+Title(s): Colombia médica : CM.
+Publication Start Year: 19uu
+Publication End Year: 
+Frequency: Quarterly
+Country of Publication: Colombia
+Publisher: [Cali, Colombia : Universidad del Valle
+Latest Publisher: enero/marzo 2009- : Cali, Colombia : Universidad del Valle, Facultad de Salud
+Description: v. : ill.
+Language: Spanish, English
+ISSN: 0120-8322(Print); 1657-9534(Electronic); 0120-8322(Linking)
+LCCN: sn 90028183
+Electronic Links: , http://www.ncbi.nlm.nih.gov/pmc/journals/2387/, , http://colombiamedica.univalle.edu.co/index.php/comedica/index
+Fully Indexed In: MEDLINE: v45n1, Jan-Mar 2014-
+In: PubMed: v43n2, 2012-, PMC; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Colombia; Medicine*; Public Health*
+Publication Type(s): Periodical
+Notes: Description based on: Vol. 17, no. 1, published in 1986; title from cover. Print 
+issues ceased with v. 29, no. 1 (1998). Supplements accompany some vols. Also
+issued online. Articles in Spanish; summaries in English and Spanish. Issued by: 
+Corporación Editora Médica del Valle. Official organ of: Academia de Medicina
+del Valle del Cauca; Asociación Colombiana de Medicina Interna, Capítulo del
+Valle Cauca-Nariño; and of Sociedad Colombiana de Epidemiología.
+Other ID: (DNLM)C31130000(s)(OCoLC)21125928
+NLM ID: 9212578[Serial]
+
+8. Author(s): American Nurses Association.; American Society of Superintendents of Training
+Schools for Nurses.; National League of Nursing Education (U.S.); Nurses'
+Associated Alumnae of the United States.
+Title Abbreviation: Am J Nurs
+Title(s): The American journal of nursing.
+Publication Start Year: 1900
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: Philadelphia, Pa. : J.B. Lippincott Co. for the American Journal of Nursing Co.
+Latest Publisher: 1998- : New York, NY : Lippincott Williams & Wilkins
+Description: v. illus., ports.
+Language: English
+ISSN: 0002-936X(Print); 1538-7488(Electronic); 0002-936X(Linking)
+Coden: AJNUAK
+LCCN: 06036097
+Electronic Links: , http://gateway.ovid.com/ovidweb.cgi?T=JS&MODE=ovid&NEWS=n&PAGE=toc&D=ovft&AN=00000446-000000000-00000
+Fully Indexed In: MEDLINE: v65n10,Oct. 1965-; International nursing index: v65n10,Oct. 1965-v100n9,Sept. 2000; Abridged index medicus; Index medicus
+In: PubMed: v65n10,Oct. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus; Nursing
+Version Indexed: Electronic
+MeSH: Nursing*
+Publication Type(s): Periodical
+Notes: Some issues contain supplement with title: Today's nurse manager. Also issued
+online. Microfilm. v.69 (1969)-v.71 (1971). 6 microfilm reels : negative ; 35 mm.
+Official organ of the American Nurses' Association (1900-11, called the Nurses'
+Associated Alumnae of the United States), and, 1900-July 1952, of the National
+League of Nursing Education (1900-12, called the American Society of Training
+Schools for Nurses), and at various times of numerous other nursing
+organizations.
+Other ID: (DNLM)A24480000(s)(OCoLC)01743347
+NLM ID: 0372646[Serial]
+
+9. Author(s): Marine Biological Laboratory (Woods Hole, Mass.)
+Title Abbreviation: Biol Bull
+Title(s): The Biological bulletin.
+Publication Start Year: 1899
+Publication End Year: 
+Frequency: Bimonthly
+Country of Publication: United States
+Publisher: Lancaster, Pa. [etc.]
+Latest Publisher: Oct. 2016- : Chicago : University of Chicago Press
+Description: v. ill.
+Language: English
+ISSN: 0006-3185(Print); 1939-8697(Electronic); 0006-3185(Linking)
+Coden: BIBUBX
+Electronic Links: , http://www.journals.uchicago.edu/loi/bbl
+Fully Indexed In: MEDLINE: v126n2, Oct. 1965-v160n1, 1981; v186n1, Feb. 1994-; Index medicus
+In: PubMed: v126n2, Oct. 1965-v160n1, 1981; v186n1, Feb. 1994-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Biology*; Marine Biology
+Publication Type(s): Periodical
+Notes: Also issued online. Issued by the Marine Biological Laboratory, Woods Hole, Mass.
+Indexes: Vols. 61-80, 1931-41. 1 v.
+Other ID: (DNLM)B16600000(s)(OCoLC)33283058
+NLM ID: 2984727R[Serial]
+
+10. Title Abbreviation: Ann Otol Rhinol Laryngol
+Title(s): The Annals of otology, rhinology, and laryngology.
+Publication Start Year: 1897
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: St. Louis : Annals Publishing Co
+Latest Publisher: 2014- : Los Angeles : Sage
+Description: v. ill., ports.
+Language: English
+ISSN: 0003-4894(Print); 1943-572X(Electronic); 0003-4894(Linking)
+Coden: AORHA2
+LCCN: sf 76000130
+Electronic Links: , https://journals.sagepub.com/home/aor
+Fully Indexed In: MEDLINE: v74n3, Sept. 1965-; Abridged index medicus; Index medicus
+In: PubMed: v74n3, Sept. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Otolaryngology*
+Publication Type(s): Periodical
+Notes: Prior to 2013, supplement treated as a separate publication. Supplement ceased
+with issue 202 (2012). Also issued online. Microfilm. v.6(1897)-45(1936). 35
+microfilm reels : negative ; 35 mm.
+Other ID: (DNLM)A35280000(s)(OCoLC)01481398
+NLM ID: 0407300[Serial]
+
+11. Author(s): American Otological Society.; American Laryngological, Rhinological, and
+Otological Society.; American Laryngological Association.
+Title Abbreviation: Laryngoscope
+Title(s): The Laryngoscope.
+Publication Start Year: 1896
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: St. Louis, Mo. : [s.n., 1896-
+Latest Publisher: <2009- >: Philadelphia, PA : Wiley-Blackwell
+Description: v. : ill.
+Language: English
+ISSN: 0023-852X(Print); 1531-4995(Electronic); 0023-852X(Linking)
+Coden: LARYA8
+Electronic Links: , http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1531-4995
+Fully Indexed In: MEDLINE: v75n9, Sept. 1965-; Index medicus
+In: PubMed: v75n9, Sept. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Otolaryngology*
+Publication Type(s): Periodical
+Notes: Title from cover. Sequentially numbered supplements issued as pt. 2 accompany
+some issues, 1974- ; supplement numbering is irregular: no. 1 repeated, no. 3
+omitted. Also issued online. Microfilm. v. 1 (1896)-v. 55 (1945), v. 79 Jan-Jun
+(1969) 48 microfilm reels : negative ; 35 mm. Official organ of the American
+Otological Society and similar organizations, 1940-47; of the American
+Laryngological, Rhinological, and Otological Society, 1948-<75> (also called
+Triological Society); and also the American Laryngological Association, <2011->
+Complemented by (work): Laryngoscope investigative otolaryngology 2378-8038 (DLC)
+2015202012 (OCoLC)908105169 (DNLM)101684963.
+Other ID: (DNLM)L02500000(s)(OCoLC)01755551
+NLM ID: 8607378[Serial]
+
+12. Author(s): Rockefeller Institute for Medical Research.; Rockefeller Institute.; Rockefeller 
+University.
+Title Abbreviation: J Exp Med
+Title(s): The Journal of experimental medicine.
+Publication Start Year: 1896
+Publication End Year: 
+Frequency: Monthly, 2017-
+Country of Publication: United States
+Publisher: New York, NY : Rockefeller University Press
+Description: v. ill.
+Language: English
+ISSN: 0022-1007(Print); 1540-9538(Electronic); 0022-1007(Linking)
+Coden: JEMEAV
+LCCN: 06036096, sn 78005854
+Electronic Links: , http://www.jem.org/, , http://www.ncbi.nlm.nih.gov/pmc/journals/483/
+Fully Indexed In: MEDLINE: v122n3, Sept. 1965-; Index medicus
+In: PubMed: v1n1, Jan. 1, 1896-, OLDMEDLINE, PMC; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*; Research
+Publication Type(s): Periodical
+Notes: Supplements accompany some issues. Some issues have supplements which carry the
+numbering of the main title and also a separate supplement numbering, e.g. Vol.
+34, no. 6 (Dec. 1, 1921) also called Supplement no. 1. Also issued online.
+Microfilm. v.1 (1896)-v.116 (1962),v.123 (1966)-v.132 (1970) + General Index v. 1
+(1896)-v.60 (1934). 137 microfilm reels : negative ; 35 mm. Issued by the
+Rockefeller Institute for Medical Research, Feb. 1905-Aug. 1958; by the
+Rockefeller Institute, Sept. 1958- ; by Rockefeller University, <July 1987->
+Indexes: Vols. 1-20, 1896-1914. 1 v; Vols. 21-40, 1915-24. 1 v; Vols. 41-60,
+1925-34. 1 v.
+Other ID: (DNLM)J20600000(s)(OCoLC)01390073
+NLM ID: 2985109R[Serial]
+
+13. Author(s): American Psychological Association.
+Title Abbreviation: Psychol Rev
+Title(s): Psychological review.
+Publication Start Year: 1894
+Publication End Year: 
+Frequency: Quarterly
+Country of Publication: United States
+Publisher: Washington, DC : American Psychological Association
+Description: v. illus.
+Language: English
+ISSN: 0033-295X(Print); 1939-1471(Electronic); 0033-295X(Linking)
+Coden: PSRVAX
+Electronic Links: , http://search.ebscohost.com/direct.asp?db=pdh&jid=REV&scope=site
+Fully Indexed In: MEDLINE: v72n5,Sept. 1965-; PubMed: v72n5,Sept. 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Psychology*
+Publication Type(s): Periodical
+Notes: Issues for 1894-1903 include section: Psychological literature. Bound with v. 6
+is the Psychological index, no. 6, 1899. Also issued online. Microfilm. v. 1
+(1894)-v. 5 (1898), v. 8 (1901)-v. 43 (1936), v. 46 (1939)-v. 69 (1962), v. 75
+(1968)-v. 76 (1969), Index (1899), Suppl. (1957-1958). 36 microfilm reels :
+negative ; 35 mm. Issued 1925- by the American Psychological Association.
+Other ID: (DNLM)P54840000(s)(OCoLC)01318836
+NLM ID: 0376476[Serial]
+
+14. Author(s): Société de neurologie de Paris.; Société française de neurologie.
+Title Abbreviation: Rev Neurol (Paris)
+Title(s): Revue neurologique.
+Publication Start Year: 1893
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: France
+Publisher: Paris.
+Latest Publisher: Paris : Masson
+Description: v. : ill., ports.
+Language: French, English
+ISSN: 0035-3787(Print); 0035-3787(Linking)
+Coden: RENEAM
+Electronic Links: , http://www.sciencedirect.com/science/journal/00353787
+Fully Indexed In: MEDLINE: v112n1,Jan. 1965-; PubMed: v112n1,Jan. 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Neurology*
+Publication Type(s): Periodical
+Notes: Vol. numbers irregular prior to 1935. Vol. 156, no. 10 (Oct. 2000) was printed
+originally with incorrect pagination. This issue was reprinted with pagination as
+p. 809-994. Also issued online. Microfilm. v. 1 (1893)-v. 23 (1912). 18 microfilm
+reels : negative ; 35 mm. Official organ of the Société de neurologie de Paris,
+June 30, 1899-Dec. 1948; of the Société française de neurologie, Jan. 1949-
+Other ID: (DNLM)R45520000(s)(OCoLC)01605920
+NLM ID: 2984779R[Serial]
+
+15. Author(s): Norske lægeforening.
+Title Abbreviation: Tidsskr Nor Laegeforen
+Title(s): Tidsskrift for den Norske lægeforening : tidsskrift for praktisk medicin, ny
+række.
+Publication Start Year: 1890
+Publication End Year: 
+Frequency: 30 no. a year, 1990-
+Country of Publication: Norway
+Publisher: Chistiania : Alb. Cammermeyer, 1880-
+Latest Publisher: Oslo : Norske Laegeforening
+Description: v. : ill., ports.
+Language: Norwegian, English
+ISSN: 0029-2001(Print); 0807-7096(Electronic); 0029-2001(Linking)
+Coden: TNLAAH
+LCCN: sn 86012487
+Electronic Links: , http://www.tidsskriftet.no/pls/lts/pa_lt.poplts
+Fully Indexed In: MEDLINE: v85n7,Apr. 1, 1965-; PubMed: v85n7,Apr. 1, 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Issues for 2008- have title: Tidsskrift for den Norske legeforening. Also issued 
+online. Microfilm. v. 10 (1890)-40 (1920) + suppl. (1900), (1920). 26 microfilm
+reels : negative ; 35 mm.
+Other ID: (DNLM)T09860000(s)(OCoLC)11275126
+NLM ID: 0413423[Serial]
+
+16. Author(s): Society of Community Medicine (Great Britain); Society of Medical Officers of
+Health (Great Britain); Royal Institute of Public Health and Hygiene (Great
+Britain); Society of Medical Officers of Health (Great Britain); Royal Institute 
+of Public Health (Great Britain)
+Title Abbreviation: Public Health
+Title(s): Public health.
+Publication Start Year: 1888
+Publication End Year: 
+Frequency: Bimonthly
+Country of Publication: Netherlands
+Publisher: London ; New York : Academic Press
+Latest Publisher: 2003- : Amsterdam : Elsevier
+Description: v. illus.
+Language: English
+ISSN: 0033-3506(Print); 1476-5616(Electronic); 0033-3506(Linking)
+Coden: PUHEAE
+LCCN: sn 80013594, ca 09001344
+Electronic Links: , http://www.sciencedirect.com/science/journal/00333506
+Fully Indexed In: MEDLINE: v79n6,Sept. 1965-; PubMed: v79n6,Sept. 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Public Health*
+Publication Type(s): Periodical
+Notes: "The journal of the Society of Community Medicine." "Journal of the Royal
+Institute of Public Health," <2003-> Issues for <Jan. 2001-> published by Nature 
+Publishing Group on behalf of the Royal Institute of Public Health and Hygiene
+and the Society of Public Health. Place of publication varies. Also issued
+online. Microfilm. v. 1 (1888)-70 (1957). 24 microfilm reels : negative ; 35 mm. 
+Issued 19 -19 by the Society under its earlier name: Society of Medical Officers 
+of Health.
+Other ID: (DNLM)P56820000(s)(OCoLC)01338322
+NLM ID: 0376507[Serial]
+
+17. Author(s): Gesellschaft der Ärzte in Wien.
+Title Abbreviation: Wien Klin Wochenschr
+Title(s): Wiener klinische Wochenschrift.
+Publication Start Year: 1888
+Publication End Year: 
+Frequency: Twenty four no. a year
+Country of Publication: Austria
+Publisher: Wien ; New York : Springer
+Description: v. ill., ports.
+Language: German, English
+ISSN: 0043-5325(Print); 1613-7671(Electronic); 0043-5325(Linking)
+Coden: WKWOAO
+LCCN: sn 79005961
+Electronic Links: , http://link.springer.com/journal/508
+Fully Indexed In: MEDLINE: v77n25, Jun. 25, 1965-; Index medicus
+In: PubMed: v77n25, Jun. 25, 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Issues for 30 Jan. 1946-30 Dez. 1955 called also neue Folge, Bd. 1-10. Also
+issued online. Microfilm. 1-57 (1888-1944) 24 microfilm reels : negative ; 35 mm.
+Organ of the Gesellschaft der Ärzte in Wien.
+Other ID: (DNLM)W05580000(s)(OCoLC)01587509
+NLM ID: 21620870R[Serial]
+
+18. Author(s): British Veterinary Association.
+Title Abbreviation: Vet Rec
+Title(s): The Veterinary record.
+Publication Start Year: 1888
+Publication End Year: 
+Frequency: Weekly
+Country of Publication: England
+Publisher: -June 2009 : London : British Veterinary Medicine
+Latest Publisher: July 2009- : London : BMJ Group
+Description: v. illus., ports.
+Language: English
+ISSN: 0042-4900(Print); 2042-7670(Electronic); 0042-4900(Linking)
+Coden: VETRAX
+LCCN: sn 85006118
+Electronic Links: , http://veterinaryrecord.bmj.com/
+Fully Indexed In: MEDLINE: v77n31, Jul. 31, 1965-; Index medicus
+In: PubMed: v77n31, Jul. 31, 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Veterinary Medicine*
+Publication Type(s): Periodical
+Notes: Issues for July 1888-May 9, 1936 called also no. 1-2496; for Jan. 1, 1921-May 9, 
+1936, called also new ser., n. 1-16. Also issued online. Microfilm. v. 1
+(1888)-33 (1920); new ser.: v. 1 (1921)-16 (1936); v. 49 (1937)-70 (1958), v. 83 
+(1968 Oct-Dec). 67 microfilm reels : negative ; 35 mm. Official journal of the
+National Veterinary Medical Association of Great Britain and Ireland, Jan. 1,
+1921-Dec. 29, 1951; of the British Veterinary Association, Jan. 5, 1952-
+Other ID: (DNLM)V06060000(s)(OCoLC)01769072
+NLM ID: 0031164[Serial]
+
+19. Author(s): British Medical Association. New Zealand Branch.; New Zealand Medical
+Association.
+Title Abbreviation: N Z Med J
+Title(s): The New Zealand medical journal.
+Publication Start Year: 1887
+Publication End Year: 
+Frequency: Twenty two no. a year
+Country of Publication: New Zealand
+Publisher: Wellington : New Zealand Medical Association
+Description: v. illus.
+Language: English
+ISSN: 0028-8446(Print); 1175-8716(Electronic); 0028-8446(Linking)
+Coden: NZMJAX
+Electronic Links: , http://www.nzma.org.nz/journal
+Fully Indexed In: MEDLINE: v64n389, July 1965-; Index medicus
+In: PubMed: v64n389, July 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Print issues ceased with v. 115, no.1146/1156 (2002) Most issues Aug. 1964-
+include separately paged supplement called the College of General Practitioners
+in New Zealand. Also available on microfilm. Also issued online. Microfilm. v. 1 
+(1887)-2 (1889). 1 microfilm reel : negative ; 35 mm. Organ of the New Zealand
+Medical Association, 1887-96; of the New Zealand Branch of the British Medical
+Association, Aug. 1900
+Other ID: (DNLM)N16640000(s)(OCoLC)01713584
+NLM ID: 0401067[Serial]
+
+20. Title Abbreviation: Ann Bot
+Title(s): Annals of botany.
+Publication Start Year: 1887
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: England
+Publisher: Oxford [etc.]
+Latest Publisher: 2002- : Oxford, UK : Oxford University Press
+Description: v. ill.
+Language: English
+ISSN: 0305-7364(Print); 1095-8290(Electronic); 0305-7364(Linking)
+Coden: ANBOA4
+Electronic Links: , https://academic.oup.com/aob
+Fully Indexed In: MEDLINE: selectively indexed v53, 1984-v86n5, Nov. 2000, fully indexed v89n1, Jan. 2002-; PubMed: selectively indexed v53, 1984-v86n5, Nov. 2000, fully indexed v89n1, Jan. 2002-; Index medicus
+In: PMC; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Botany*
+Publication Type(s): Periodical
+Notes: Issue for Vol. 91, no. 2 ( Jan. 2003) issued as Vol. 91 special issue (Jan.
+2003). Issues for Jan. 1937-Nov. 1978 called also no. 1-182. Available also
+online.
+Other ID: (DNLM)A34755000(s)(OCoLC)01481373
+NLM ID: 0372347[Serial]
+
+21. Author(s): Conference of Executives of American Schools for the Deaf.; Conference of
+Superintendents and Principals of American Schools for the Deaf.; Convention of
+American Instructors of the Deaf.
+Title Abbreviation: Am Ann Deaf
+Title(s): American annals of the deaf.
+Publication Start Year: 1886
+Publication End Year: 
+Frequency: Five no. a year
+Country of Publication: United States
+Publisher: Washington : Executive Committee of the Convention of American Instructors of the
+Deaf
+Latest Publisher: Silver Spring Md : Conference Of Educational Administration Serving The Deaf And:
+Convention Of American Instructors Of The Deaf
+Description: v. illus., ports.
+Language: English
+ISSN: 0002-726X(Print); 0002-726X(Linking)
+Coden: ANDFAL
+Electronic Links: , http://muse.jhu.edu/journals/american_annals_of_the_deaf
+Fully Indexed In: MEDLINE: v10n5, Nov. 1965-; Index medicus
+In: PubMed: v10n5, Nov. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Deafness*
+Publication Type(s): Periodical
+Notes: Includes a directory of American Instructors of the Deaf, Jan. 1902- Also issued 
+online. Microfilm. v.31(1886)-80(1935) + Index v.1(1847)-80(1944). 17 microfilm
+reels : negative ; 35 mm. Official organ of the Convention of American
+Instructors of the Deaf, Sept. 1911- and of the Conference of Executives of
+American Schools for the Deaf, 1932- Issued Oct. 1886-June 1895 by the Convention
+of American Instructors of the Deaf; Oct. 1895- by the Conference of Executives
+of American Schools for the Deaf (Oct. 1895-Sept. 1930, called Conference of
+Superintendents and Principals of American Schools for the Deaf). Indexes: Vols. 
+1-50, 1847-1905. 1 v. (Includes index for vols. 1-31 of American annals of the
+deaf and dumb) Subsequent indexes issued every ten years.
+Other ID: (DNLM)A23100000(s)(OCoLC)05695496
+NLM ID: 0414670[Serial]
+
+22. Author(s): American Surgical Association.
+Title Abbreviation: Ann Surg
+Title(s): Annals of surgery.
+Publication Start Year: 1885
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: Philadelphia, PA : Lippincott Williams & Wilkins
+Description: v. illus., ports.
+Language: English
+ISSN: 0003-4932(Print); 1528-1140(Electronic); 0003-4932(Linking)
+Coden: ANSUA5
+LCCN: 44048195
+Electronic Links: , http://ovidsp.ovid.com/ovidweb.cgi?T=JS&NEWS=n&CSC=Y&PAGE=toc&D=yrovft&AN=00000658-000000000-00000, , http://www.ncbi.nlm.nih.gov/pmc/journals/230/
+Fully Indexed In: MEDLINE: v162n3, Sept. 1965-; Abridged index medicus; Index medicus
+In: PubMed: v1n1, Jan. 1885-, OLDMEDLINE, PMC Inactive; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: General Surgery*
+Publication Type(s): Periodical
+Notes: Includes the transactions of various surgical associations. Supplements accompany
+some volumes. Also issued online. Microfilm.
+v.1(1885)-60(1914),113(1941)-115(1942). 44 microfilm reels : negative ; 35 mm.
+Official publication of the American Surgical Association, 1928- , and of various
+other surgical associations. Indexes: Vols. 1-50, 1885-1909. 1 v; Vols 51-60,
+1910-14. 1 v; Vols. 51-80, 1910-24. 1 v.
+Other ID: (DNLM)A35505000(s)(OCoLC)01481411
+NLM ID: 0372354[Serial]
+
+23. Title Abbreviation: Am J Ophthalmol
+Title(s): American journal of ophthalmology.
+Publication Start Year: 1884
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: [Chicago, etc., Ophthalmic Pub. Co., etc.]
+Latest Publisher: 1999- : New York, NY : Elsevier Science
+Description: v. ill., ports.
+Language: English
+ISSN: 0002-9394(Print); 1879-1891(Electronic); 0002-9394(Linking)
+Coden: AJOPAA
+LCCN: 62002360, sn 78000612
+Electronic Links: , http://sciencedirect.com/science/journal/00029394
+Fully Indexed In: MEDLINE: v59n3, Mar. 1965-; Abridged index medicus; Index medicus
+In: PubMed: v59n3, Mar. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Ophthalmology*
+Publication Type(s): Periodical
+Notes: Issues for 1918- called 3d ser. in continuation of retrospective numbering of
+issues for 1884-1917 as ser. 2 and of an earlier title with the same name, but
+otherwise unrelated, as ser. 1. Spine of vol. 100, no. 4 (Oct. 1986) misnumbered 
+v. 100, no. 5. Cover of vol. 108, no. 4, 1989 misnumbered as v. 107; spine
+misnumbered v. 108, no. 3. Also issued online. Indexes: Vols. 26-35, 1943-52, in 
+v. 36, no.7, pt. 2; Vols. 75-84, 1973-77. 1 v.
+Other ID: (DNLM)A24525000(s)(OCoLC)01480165
+NLM ID: 0370500[Serial]
+
+24. Title Abbreviation: Arch Ital Biol
+Title(s): Archives italiennes de biologie.
+Publication Start Year: 1882
+Publication End Year: 
+Frequency: Four no. a year
+Country of Publication: Italy
+Publisher: Pisa : Universita Degli Studi Di Pisa
+Description: v. illus.
+Language: French
+ISSN: 0003-9829(Print); 0003-9829(Linking)
+Coden: AIBLAS
+Electronic Links: , http://www.architalbiol.org/aib/issue/current
+Fully Indexed In: MEDLINE: v103n2, June 10, 1965-; Index medicus
+In: PubMed: v103n2, June 10, 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Print
+MeSH: Biology*; Physiology*
+Publication Type(s): Periodical
+Notes: Tomes 1-20, 1882-1893/94. 1 v. Tomes 21-40, 1894-1903, with t. 40. Publication
+suspended 1937-56. Also issued online. Microfilm. v. 1 (1882)-70 (1921) + Index
+v. 1 (1882)-40 (1903). 24 microfilm reels : negative ; 35 mm. Text in English or 
+French.
+Other ID: (DNLM)A61335000(s)(OCoLC)01482111
+NLM ID: 0372441[Serial]
+
+25. Author(s): Nihon Yakugakkai.
+Title Abbreviation: Yakugaku Zasshi
+Title(s): Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan.
+Publication Start Year: 1881
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: Japan
+Publisher: Tokyo : Nihon Yakugakkai
+Description: v. illus., ports.
+Language: Japanese, English
+ISSN: 0031-6903(Print); 1347-5231(Electronic); 0031-6903(Linking)
+Coden: YKKZAJ
+Electronic Links: , https://www.jstage.jst.go.jp/browse/yakushi
+Fully Indexed In: MEDLINE: v85n2,Feb. 1965-; PubMed: v85n2,Feb. 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Pharmacology*
+Publication Type(s): Periodical
+Notes: Issues for 1881-93 have title in Japanese only. Subject index. Maki 64-73,
+1944-53. 1 v. Issues for 1928- called also maki 48- Also issued online.
+Microfilm. no. 1 (1881)-no. 214 (1899), no. 215-225 (1900), no. 226 (1901)-no.
+704 (1940), index no. 1-200 (1881-1898), v. 61 (1941)-v. 70 (1950). 81 microfilm 
+reels : negative ; 35 mm. Table of contents in English, with summaries in English
+or German, 1894- Issued 1881-Jan. 1892 by Tokyo Yakugakkai; Feb. 1892- by Nippon 
+Yakugakkai.
+Other ID: (DNLM)Y00220000(s)(OCoLC)01762192
+NLM ID: 0413613[Serial]
+
+26. Author(s): American Association for the Advancement of Science.
+Title Abbreviation: Science
+Title(s): Science.
+Publication Start Year: 1880
+Publication End Year: 
+Frequency: Weekly (except last week in Dec.)
+Country of Publication: United States
+Publisher: New York, N.Y. : [s.n.] 1880-
+Latest Publisher: <Oct. 4, 1991- > : Washington, DC : American Association for the Advancement of
+Science
+Description: v. : ill. ; 26-32 cm.
+Language: English
+ISSN: 0036-8075(Print); 1095-9203(Electronic); 0036-8075(Linking)
+Coden: SCIEAS
+LCCN: 17024346
+Electronic Links: , http://science.sciencemag.org
+In: PubMed: v149n687, Aug. 27, 1965-, OLDMEDLINE; 
+Selectively Indexed in: MEDLINEv149n687, Aug. 27, 1965-Chemical abstractsIndex medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Science*
+Publication Type(s): Periodical
+Notes: "A weekly record of scientific progress." Published: Cambridge, Mass. : Science
+Company, Moses King, 1883- ; Lancaster, Pa. : Science Press, -1944; Lancaster,
+Pa. : American Association for the Advancement of Science, 1945- Since Jan. 1901 
+the official proceedings and most of the papers of the American Association for
+the Advancement of Science have been included in Science. Some issues accompanied
+by CD-ROM. None issued for Jan. 7, Jan. 28-Feb. 1882. Also issued online. Online 
+version contains the following titles: Science Magazine, Daily News, Science
+Signaling, Science Translational Medicine, SAGE KE and Science Careers.
+Microfilm. v.1 (1883)-v.23 (1894),new ser.: v.1 (1895)-v.111 (1950), v. 159
+(1968), v. 160 (1968), v. 161 (1968), v. 162 (1968), v. 162A supplement (1968),
+v.164 (1969)-v.174 (1971) 108 microfilm reels : negative ; 35 mm. Indexes: Index 
+in last issue of v., -1996; index only available in online version, 1997-
+Other ID: (DNLM)S11420000(s)
+NLM ID: 0404511[Serial]
+
+27. Author(s): American Chemical Society.; American Chemical Society., Proceedings of the
+American Chemical Society.
+Title Abbreviation: J Am Chem Soc
+Title(s): Journal of the American Chemical Society.
+Publication Start Year: 1879
+Publication End Year: 
+Frequency: Fifty one no. a year, 1993-
+Country of Publication: United States
+Publisher: Easton, Pa. [etc.]
+Latest Publisher: Washington, DC : American Chemical Society
+Description: v. illus.,ports.
+Language: English
+ISSN: 0002-7863(Print); 1520-5126(Electronic); 0002-7863(Linking)
+Coden: JACSAT
+LCCN: 16003159, sn 78000660
+Electronic Links: , http://pubs.acs.org/journals/jacsat/index.html
+In: OLDMEDLINE; 
+Selectively Indexed in: MEDLINEv87n1,Jan. 5, 1965-v100n5, Mar. 1, 1978;v123n1, Jan. 10, 2001-PubMedv87n1,Jan. 5, 1965-v100n5, Mar. 1, 1978;v123n1, Jan. 10, 2001-Index medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Chemistry*
+Publication Type(s): Periodical
+Notes: Place of publication varies. Also issued online. Indexes: Vols. 1-20, 1879-98. 1 
+v.
+Other ID: (DNLM)J11460000(s)(OCoLC)01226990
+NLM ID: 7503056[Serial]
+
+28. Title Abbreviation: Brain
+Title(s): Brain : a journal of neurology.
+Publication Start Year: 1878
+Publication End Year: 
+Frequency: Monthly, 1997-
+Country of Publication: England
+Publisher: London.
+Latest Publisher: Oxford : Oxford University Press
+Description: v. illus.
+Language: English
+ISSN: 0006-8950(Print); 1460-2156(Electronic); 0006-8950(Linking)
+Coden: BRAIAK
+LCCN: 66084758
+Electronic Links: , https://academic.oup.com/brain
+Fully Indexed In: MEDLINE: v88n2,Jun. 1965-; PubMed: v88n2,Jun. 1965-; Abridged index medicus; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Neurology*
+Publication Type(s): Periodical
+Notes: Available also online. Microfilm. v.1(1878)-75(1952),94(1971). 33 microfilm reels
+: negative ; 35 mm. Indexes: Vols. 1-23, 1878-1900. 1 v.
+Other ID: (DNLM)B32980000(s)(OCoLC)01536984
+NLM ID: 0372537[Serial]
+
+29. Author(s): Physiological Society (Great Britain)
+Title Abbreviation: J Physiol
+Title(s): The Journal of physiology.
+Publication Start Year: 1878
+Publication End Year: 
+Frequency: Twenty-seven no. a year, 2002-
+Country of Publication: England
+Publisher: London, Cambridge Univ. Press.
+Latest Publisher: Oxford : Blackwell : Cambridge Univ. Press
+Description: v. ill., ports.
+Language: English
+ISSN: 0022-3751(Print); 1469-7793(Electronic); 0022-3751(Linking)
+Coden: JPHYA7
+LCCN: 49034373
+Electronic Links: , http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1469-7793, , http://www.ncbi.nlm.nih.gov/pmc/journals/236/
+Fully Indexed In: MEDLINE: v178n3,Jun. 1965-; PubMed: v1, 1878-; Index medicus
+In: OLDMEDLINE, PMC Inactive; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Physiology*
+Publication Type(s): Periodical
+Notes: Includes proceedings of the Physiological Society, <1907>-2002. Proceedings
+issues published in electronic format only, 2003- Imprint varies. Proceedings
+issues for Feb. 1994-Nov. 2002 called v. 475.P-v. 544.P. Also issued online.
+Microfilm. v. 1 (1878)-v. 23 (1899), v. 25 (1899)-39 (1909) + Proceedings v. 20
+(1896)-23 (1899), v. 25 (1899)-31 (1904), v. 38 (1908)-39 (1909) + suppl. 3
+(1880)-4 (1884), 23 (1898/1899), v. 43-44 (1911-1912), v. 182 (1966)-v. 193
+(1967), v. 196 (1968), v. 198 (1968), v. 212, no. 1-3 (1971)-v. 219, no. 1-3
+(1971). 39 microfilm reels : negative ; 35 mm. Issued by the Physiological
+Society, 1926- Indexes: Author index: Vols. 1 (1878)-60 (1925) issued as suppl.
+to June 1928. 1 v. Indexes: Subject index: Vols. 1 (1878)-60 (1925) issued as
+suppl. to Jan. 1931. 1 v. Indexes: Author and subject index: Vols. 61 (1926)-100 
+(1941) issued as suppl. to Dec. 1947. 1 v.; Vols. 101 (1942)-115 (1951) issued as
+suppl. to 16 July 1952. 1 v.; Vols. 116 (1952)-134 (1956) issued as suppl. to 17 
+June 1957. 1 v.; Vols. 116 (1952)-134 (1956). 1 v.; Vols. 135 (1957)-154 (1960). 
+1 v.; Vols. 155 (1961)-175 (1965). 1 v.; Vols. 176 (1966)-199 (1968). 1 v.
+Indexes: Vols. 245 (1975)-285 (1978). 1 v.; Vols. 286 (1979)-321 (1981). 1 v.
+Other ID: (DNLM)J35160000(s)(OCoLC)01754742
+NLM ID: 0266262[Serial]
+
+30. Author(s): New York Academy of Sciences.
+Title Abbreviation: Ann N Y Acad Sci
+Title(s): Annals of the New York Academy of Sciences.
+Publication Start Year: 1877
+Publication End Year: 
+Frequency: Approximately 28 vols. per year, 2006-
+Country of Publication: United States
+Publisher: New York, The Academy.
+Latest Publisher: 2006- : New York, NY : Malden, MA : New York Academy of Sciences ; Blackwell
+Description: v. ill.
+Language: English
+ISSN: 0077-8923(Print); 1749-6632(Electronic); 0077-8923(Linking)
+Coden: ANYAA9
+LCCN: 12037287, sn 80000082
+Electronic Links: , http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1749-6632
+Fully Indexed In: MEDLINE: v114n2,Apr. 2, 1964-; Index medicus
+In: PubMed: v114n2,Apr. 2, 1964-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Science*
+Publication Type(s): Periodical
+Notes: Some vols. issued out of chronological order. Beginning with v. 65- articles are 
+numbered separately within each vol. Records of meetings 1808-1916 in v. 11-27.
+Appendix to v. 15: The organizations of the New York Academy of Sciences. Also
+issued online. Microfilm. v. 1 (1879[i.e.1877])-v. 25 (1917), v. 26 (1915)-v. 46 
+(1947) 17 microfilm reels : negative ; 35 mm. Indexes: Vols. 79-250, 1960-74, in 
+v. 289; Vols. 240-303, 1975-77, in v. 331; Vols. 304-334, 1978-79, in v. 351.
+Indexes: Cumulative indexes issued biennially.
+Other ID: (DNLM)A35175000(s)(OCoLC)01306678
+NLM ID: 7506858[Serial]
+
+31. Author(s): American Neurological Association.; University of Maryland at Baltimore.
+Psychiatric Institute.
+Title Abbreviation: J Nerv Ment Dis
+Title(s): The Journal of nervous and mental disease.
+Publication Start Year: 1876
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: Baltimore [etc.]
+Latest Publisher: Hagerstown, MD : Lippincott Williams & Wilkins
+Description: v. illus., ports
+Language: English
+ISSN: 0022-3018(Print); 1539-736X(Electronic); 0022-3018(Linking)
+Coden: JNMDAN
+LCCN: sn 78005123
+Electronic Links: , http://ovidsp.ovid.com/ovidweb.cgi?T=JS&NEWS=n&CSC=Y&PAGE=toc&D=yrovft&AN=00005053-000000000-00000
+Fully Indexed In: MEDLINE: v140n6,Jun. 1965-; PubMed: v140n6,Jun. 1965-; Abridged index medicus; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Neurology*; Psychiatry*
+Publication Type(s): Periodical
+Notes: Issues for 1876-96 called also new ser., v. 1-21. Numbered also 1931?- as no.
+589- Also issued online. Microfilm. v. 3 (1876)-94 (1941) + Index v. 1 (1874)-50 
+(1919). 51 microfilm reels : negative ; 35 mm. Official organ in early years of
+the American Neurological Association and similar societies. Issued by the
+Psychiatric Institute of the University of Maryland, 1958- Indexes: Vols. 1-50,
+1874-1919. 1 v. (Includes index to the journal under its earlier title).
+Other ID: (DNLM)J30920000(s)(OCoLC)01754691
+NLM ID: 0375402[Serial]
+
+32. Author(s): Royal Society of Chemistry (Great Britain); Society for Analytical Chemistry.;
+Society of Public Analysts (Great Britain); Society of Public Analysts and Other 
+Analytical Chemists (Great Britain)
+Title Abbreviation: Analyst
+Title(s): The Analyst.
+Publication Start Year: 1876
+Publication End Year: 
+Frequency: Twenty four no. a year, 2011-
+Country of Publication: England
+Publisher: London : Chemical Society
+Latest Publisher: Cambridge : Royal Society of Chemistry
+Description: v. illus.
+Language: English
+ISSN: 0003-2654(Print); 1364-5528(Electronic); 0003-2654(Linking)
+Coden: ANALAO
+Electronic Links: , http://www.rsc.org/analyst
+In: PubMed: v90n73, Aug. 1965-, OLDMEDLINE; 
+Selectively Indexed in: MEDLINEv90n73, Aug. 1965-Index medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Chemistry Techniques, Analytical*
+Publication Type(s): Periodical
+Notes: Vols. for 1876-<, June 1954-> include Proceedings of the society. Issued by:
+Society of Public Analysts, 1876-Sept. 1907; the Society of Public Analysts and
+Other Analytical Chemists, Oct. 1907-Dec. 1953; the Society for Analytical
+Chemistry, <June 1954-> ; Chemical Society, <June 1975-> ; Royal Chemical
+Society, <July 1981-> . Print issues ceased with v. 144 (2019). Issues for
+1876-78 have no vol. numbering, but constitute v. 1-3. Also issued online.
+Microfilm. v.1(1876)-17(1892). 4 microfilm reels : negative ; 35 mm.
+Other ID: (DNLM)A29805000(s)(OCoLC)01481074
+NLM ID: 0372652[Serial]
+
+33. Author(s): Sociedad Médica de Santiago.
+Title Abbreviation: Rev Med Chil
+Title(s): Revista médica de Chile.
+Publication Start Year: 1872
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: Chile
+Publisher: Santiago.
+Latest Publisher: Santiago : Sociedad Médica de Santiago
+Description: v. illus., ports.
+Language: Spanish, English
+ISSN: 0034-9887(Print); 0717-6163(Electronic); 0034-9887(Linking)
+Coden: RMCHAW
+LCCN: sn 86012833
+Electronic Links: , http://www.scielo.cl/scielo.php?script=sci_serial&pid=0034-9887&lng=en&nrm=iso
+Fully Indexed In: MEDLINE: v93n2,Feb. 1965-; PubMed: v93n2,Feb. 1965-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Bound with año 78, 1950, is its Suplemento 1. Also issued online. Microfilm. v. 
+1 (1872)-44 (1916), v. 47, no. 1, 4-5, 7-8, 11 (1919), v. 48, no. 2-6, 8-12
+(1920), v. 49, no. 1-6 (1921), v. 51 (1923)-78 (1950), v. 80 (1952)-83 (1955), v.
+86 (1958), v. 88 (1960)-90 (1962). 83 microfilm reels : negative ; 35 mm. Some
+summaries in English. Official organ of the Sociedad Médica de Santiago and its 
+affiliates.
+Other ID: (DNLM)R36440000(s)(OCoLC)01640625
+NLM ID: 0404312[Serial]
+
+34. Title Abbreviation: Nature
+Title(s): Nature.
+Publication Start Year: 1869
+Publication End Year: 
+Frequency: Weekly
+Country of Publication: England
+Publisher: London, Macmillan Journals ltd.
+Latest Publisher: Basingstoke : Nature Publishing Group
+Description: v. illus., ports.
+Language: English
+ISSN: 0028-0836(Print); 1476-4687(Electronic); 0028-0836(Linking)
+Coden: NATUAS
+Electronic Links: , http://www.nature.com/nature
+In: OLDMEDLINE; 
+Selectively Indexed in: MEDLINEv205n976, Mar. 13, 1965-PubMedv205n976, Mar. 13, 1965-Index medicus
+Referenced in: NLM Hidden treasure p. 218 (April 1953 issue)
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Science*
+Publication Type(s): Periodical
+Notes: Part of title on microfilm. Issued 1971-73 in three parts: Nature, Nature: New
+biology, and Nature: Physical science. The latter two are cataloged separately in
+this library. Supplements accompany many numbers. Also issued online. Microfilm. 
+v. 153 (1944 Jan-Jun), v. 218, no. 5136-5148 (1968), v. 220, no. 5162-5173
+(1968). 5 microfilm reels : negative ; 35 mm. Indexes: Vols. 229-234, 1971; Vols.
+235-240, 1972.
+Other ID: (DNLM)N07600000(s)(OCoLC)01586310
+NLM ID: 0410462[Serial]
+
+35. Author(s): American Society of Naturalists.; Essex Institute.; Peabody Academy of Science.
+Title Abbreviation: Am Nat
+Title(s): The American naturalist.
+Publication Start Year: 1867
+Publication End Year: 
+Frequency: Monthly, 1979-
+Country of Publication: United States
+Publisher: Salem, Mass. : Essex Institute
+Latest Publisher: Chicago, IL : University of Chicago Press
+Description: v. ill., ports.
+Language: English
+ISSN: 0003-0147(Print); 1537-5323(Electronic); 0003-0147(Linking)
+Coden: AMNTA4
+Electronic Links: , http://www.journals.uchicago.edu/toc/an/current
+Fully Indexed In: MEDLINE: v161n1, Jan. 2003-; Index medicus
+In: PubMed: v161n1, Jan. 2003-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Biology*; Science*
+Publication Type(s): Periodical
+Notes: Also issued online. Issued Mar. 1867-Feb. 1868 by the Essex Institute; Mar.
+1868-Dec. 1950, by the Peabody Academy of Science; 1951- by the American Society 
+of Naturalists.
+Other ID: (DNLM)A25425000(s)(OCoLC)01480477
+NLM ID: 2984688R[Serial]
+
+36. Author(s): American Ophthalmological Society.
+Title Abbreviation: Trans Am Ophthalmol Soc
+Title(s): Transactions of the American Ophthalmological Society.
+Publication Start Year: 1864
+Publication End Year: 
+Frequency: Annual
+Country of Publication: United States
+Publisher: Rochester, Minn., Whiting Press [etc.]
+Latest Publisher: San Francisco, CA : American Ophthalmological Society
+Description: v. illus.,ports.
+Language: English
+ISSN: 0065-9533(Print); 1545-6110(Electronic); 0065-9533(Linking)
+Coden: TAOSAT
+LCCN: 43042894
+Electronic Links: , https://aosonline.org/resources/transactions/, , http://www.ncbi.nlm.nih.gov/pmc/journals/308/
+Fully Indexed In: MEDLINE: v63, 1965-; Index medicus
+In: PubMed: v63, 1965-, OLDMEDLINE, PMC; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Ophthalmology*
+Publication Type(s): Periodical
+Notes: Place of publication varies. NLM HMD copy, v.2(1865) interleaved with
+correspondence to and from J.S. Billings. Print issues ceased with v. 102 (2004) 
+Issues for 1864-79 have no vol. numbering but constitute v. 1-2. No meeting held 
+in 1872. Issues numbered also as 1st- annual meeting. Also issued online.
+Microfilm. v. 1(1864/1871)-v.60 (1962) + Annual Meetings. 48 microfilm reels :
+negative ; 35 mm. Indexes: Vols. 31-50, 1933-52. 1 v; Vols. 51-60, 1953-62, with 
+v. 60.
+Other ID: (DNLM)T15400000(s)(OCoLC)01480500
+NLM ID: 7506106[Serial]
+
+37. Author(s): Academia de Medicina de México (1871-1887); Academia Nacional de Medicina de
+México.; Sociedad Médica de México.
+Title Abbreviation: Gac Med Mex
+Title(s): Gaceta médica de México.
+Publication Start Year: 1864
+Publication End Year: 
+Frequency: Bimonthly
+Country of Publication: Mexico
+Publisher: México : Unidad de Congresos del Centro Médico Nacional.
+Description: v. illus., ports.
+Language: Spanish
+ISSN: 0016-3813(Print); 0016-3813(Linking)
+Coden: GMMEAK
+Electronic Links: , http://new.medigraphic.com/cgi-bin/publicacionesI.cgi?IDREVISTA=16, , http://www.anmm.org.mx/index.php/gaceta/gaceta-formato-pdf
+Fully Indexed In: MEDLINE: v94n4, Apr. 1964-; Index medicus
+In: PubMed: v94n4, Apr. 1964-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Issues for 1874-1905 have title: Gaceta médica. Index for t. 1-86, 1864-1956,
+included in Bibliografía general de la Academia Nacional de Medicina (1836-1956)
+by Francisco Fernandez del Castillo. Issues for 1901-05, called ser. 2, t. 1-5,
+but constitute t. 38-42; 1906-18: ser. 3, t. 1-11, but constitute t. 43-53;
+1919-24?, called also ser. 4. Vol. 130, no. 4 has incorrect months May/June 1994 
+but constitutes July./Aug. 1994. Vol. 130, no. 3 in 1994 ends with p. 177; v.
+130, no. 4 in 1994 begins with p. 201. Also issued online. Microfilm. v. 1
+(1864)-55 (1920). 28 microfilm reels : negative ; 35 mm. Some summaries in
+English. Organ of the Sociedad de Medicina, Mexico, 1864-1 jun. 1871; Academia de
+Medicina de México, 15 jun. 1871-1 jul. 1887; Academia Nacional de Medicina de
+méxico, 15 jul. 1887-
+Other ID: (DNLM)G00380000(s)(OCoLC)01570372
+NLM ID: 0010333[Serial]
+
+38. Title Abbreviation: Cas Lek Cesk
+Title(s): Casopís lékar̆ů c̆eských.
+Publication Start Year: 1862
+Publication End Year: 
+Frequency: Bimonthly, 2013-
+Country of Publication: Czech Republic
+Publisher: Praha : Ceskoslovenska Lekarska Spolecnost
+Description: v. illus., ports.
+Language: Czech, English
+ISSN: 0008-7335(Print); 1805-4420(Electronic); 0008-7335(Linking)
+Coden: CLCEAL
+LCCN: sn 86009312
+Electronic Links: , https://www.prolekare.cz/casopisy/casopis-lekaru-ceskych
+Fully Indexed In: MEDLINE: v104n27,Jul. 9, 1986-; PubMed: v104n27,Jul. 9, 1986-; Index medicus
+In: OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Print
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Bound with roć. 29-38: Zdravotnícky vĕstník, roć. 2-3, 5-8, and 10; with
+roć. 8: Vĕstnik c̆eských lékar̆ů, roć. 11. Also issued online. Microfilm.
+v. 1 (1862)-6 (1867), v. 12 (1873)-14 (1875), v. 24 (1885)-84, no. 26 (1945), v. 
+85 (1946)-87, no. 26, 35 (1948) + suppl. 9 (1867), 11 (1899), 14 (1902)-15
+(1903), 17 (1905)-18 (1906), 32 (1920). 81 microfilm reels : negative ; 35 mm.
+Table of contents and summaries in English, French, German and Russian.
+Other ID: (DNLM)C08680000(s)(OCoLC)01553478
+NLM ID: 0004743[Serial]
+
+39. Author(s): Gesellschaft Schweizerischer Tierärzte.; Gesellschaft Schweizer Tierärztinnen
+und Tierärzte.
+Title Abbreviation: Schweiz Arch Tierheilkd
+Title(s): Schweizer Archiv für Tierheilkunde.
+Publication Start Year: 1859
+Publication End Year: 
+Frequency: Eleven no. a year, 2018-
+Country of Publication: Switzerland
+Publisher: Zürich : Orell Fuessli
+Latest Publisher: 2015- : Bern : Gesellschaft Schweizer Tierärztinnen und Tierärzte
+Description: v. illus., ports.
+Language: German
+ISSN: 0036-7281(Print); 1664-2848(Electronic); 0036-7281(Linking)
+Coden: SATHAA
+Electronic Links: , http://www.gstsvs.ch/fr/sat/archives/2016.html?tx_igiplogin_pi2%5Bipauthfail%5D=1
+Fully Indexed In: MEDLINE: v107n9, Sept. 1965-; Index medicus
+In: PubMed: v107n9, Sept. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Veterinary Medicine*
+Publication Type(s): Periodical
+Notes: Vols. for <1883>-1892 have title: Schweizer-Archiv für Thierheilkunde. Issues
+for <2000- > have parallel French title: Archives Suisses de médecine
+vétérinaire. Issues for <2000-2007 > have parallel Italian title: Archivio
+Swizzero di medicina veterinaria. Issues for <2000-2007 > have parallel English
+title: Swiss archive for veterinary medicine. Issues for 2008- have title:
+SATASMV. Issues for 2008- have title: SAT ASMV. Title varies slightly. Bd. 72-92,
+1930-50. 1 v. Publication suspended 1872-82. Also issued online. Text in German
+or French; some summaries in these languages, Italian, or English. Issued by the 
+Gesellschaft Schweizerischer Tierärzte, < -2003>.
+Other ID: (DNLM)S10560000(s)(OCoLC)01765165
+NLM ID: 0424247[Serial]
+
+40. Author(s): Markusovszky,Lajos,1815-1893.; Magyar Orvosok Szabad Szakszervezete.;
+Orvos-Egészségügyi Szakszervezet (Hungary)
+Title Abbreviation: Orv Hetil
+Title(s): Orvosi hetilap.
+Publication Start Year: 1857
+Publication End Year: 
+Frequency: Weekly
+Country of Publication: Hungary
+Publisher: Pest : Markusovszky Lajos
+Latest Publisher: 2007- : Budapest : Akademiai Kiado
+Description: v. illus., ports.
+Language: Hungarian, English
+ISSN: 0030-6002(Print); 1788-6120(Electronic); 0030-6002(Linking)
+Coden: ORHEAG
+Electronic Links: , https://akademiai.com/loi/650
+Fully Indexed In: MEDLINE: v106n34,Aug. 22, 1965-; Index medicus
+In: PubMed: v106n34,Aug. 22, 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: History of Medicine*; Medicine*
+Publication Type(s): Periodical
+Notes: Part of title on microfilm. Title varies slightly. Founded and for many years ed.
+by L. Markusovsky. Bound with this journal are many of its independent
+supplements. Publication suspended Jan. 1945-Feb.? 1948. Microfilm. v. 1
+(1857)-v. 4 (1860),v. 15 (1871)-v. 18 (1874),v. 20 (1876)-v. 33 (1889), v. 42
+(1898)-v. 45 (1901), v. 48 (1904), v. 50 (1906), v. 58 (1914), v. 67 (1923)-v. 68
+(1924), v. 69 Jan-Jun (1925), v. 70 (1926)-v. 71 (1927), v. 72 Jul-Dec (1928), v.
+79 Jul-Dec (1935), v. 80 Jan-Jun (1936), v. 83(1939)-v.85(1941) + v.83 index
+(1939). 42 microfilm reels : negative ; 35 mm. Some summaries in English, German,
+and Russian. Organ of Magyar Orvosok Szabad Szakszervezete, Mar. 1948-Feb. 20,
+1949; of Orvos-Egészségügyi Szakszervezet, March 6, 1949-
+Other ID: (DNLM)O11540000(s)(OCoLC)05587292
+NLM ID: 0376412[Serial]
+
+41. Title Abbreviation: Sci Am
+Title(s): Scientific American.
+Publication Start Year: 1845
+Publication End Year: 
+Frequency: Monthly
+Country of Publication: United States
+Publisher: New York, NY : Scientific American
+Description: v. illus. ports.
+Language: English
+ISSN: 0036-8733(Print); 0036-8733(Linking)
+Coden: SCAMAC
+LCCN: 04017574
+Electronic Links: , http://www.nature.com/scientificamerican/archive/index.html
+In: PubMed: v213n4, Oct. 1965-, OLDMEDLINE; 
+Selectively Indexed in: MEDLINEv213n4, Oct. 1965-Index medicus
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Science*; Technology*
+Publication Type(s): Periodical
+Notes: Vol. 259. no. 4 (Oct. 1988) also reprinted with title: The science of AIDS. Vol. 
+268, no. 3 (Mar. 1993) misnumbered as v. 266, no. 3. Vol. 285, no. 2 (Aug. 2001) 
+misnumbered as v. 265, no. 2. Also issued online. Microfilm. v. 199 (1958), v.
+204, jan-jun (1961) 2 microfilm reels : negative ; 35 mm. Indexes: 1948-57. 1 v.
+Other ID: (DNLM)S13040000(s)(OCoLC)01775222
+NLM ID: 0404400[Serial]
+
+42. Author(s): Almindelige danske lægeforening.
+Title Abbreviation: Ugeskr Laeger
+Title(s): Ugeskrift for laeger.
+Publication Start Year: 1839
+Publication End Year: 
+Frequency: Weekly
+Country of Publication: Denmark
+Publisher: Copenhagen : Den Alm Danske Laegerforening
+Description: v. in illus., port.
+Language: Danish, English
+ISSN: 0041-5782(Print); 1603-6824(Electronic); 1399-4174(Undetermined); 0041-5782(Linking)
+Coden: UGLAAD
+LCCN: sn 85005808
+Electronic Links: , http://ugeskriftet.dk/udgivelser
+Fully Indexed In: MEDLINE: v127n14, Apr. 8, 1965-; Index medicus
+In: PubMed: v127n14, Apr. 8, 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Supplements accompany some issues. Also issued online. Microfilm. v. 1 (1839)-10 
+(1844), ser. 2: v.1 (1844)-v. 43 (1865), ser. 3: v. 1(1866)-v. 28 (1879), ser. 4:
+v. 1 (1880)-v.28 (1893), ser 5: v. 1 (1894)-v. 6 (1899), [v.62] (1900)-v.124
+(1962), suppls. (1871-1893, 1895-1908, 1935, 1938, 1940, 1942, 1946-1947,
+1951-1952, 1955-1962), index (1935, 1940, 1944). 205 microfilm reels : negative ;
+35 mm. Issued 1869- by Almindelige danske laegeforening.
+Other ID: (DNLM)U00780000(s)(OCoLC)01767927
+NLM ID: 0141730[Serial]
+
+43. Author(s): Southern Society for Clinical Investigation (U.S.)
+Title Abbreviation: Am J Med Sci
+Title(s): The American journal of the medical sciences.
+Publication Start Year: 1827
+Publication End Year: 
+Frequency: Monthly, 1984-
+Country of Publication: United States
+Publisher: Philadelphia : J. B. Lippincott
+Latest Publisher: 2016- : New York : Elsevier
+Description: v. illus.
+Language: English
+ISSN: 0002-9629(Print); 1538-2990(Electronic); 0002-9629(Linking)
+Coden: AJMSA9
+LCCN: 50004912
+Electronic Links: , http://ovidsp.ovid.com/ovidweb.cgi?T=JS&NEWS=n&CSC=Y&PAGE=toc&D=yrovft&AN=00000441-000000000-00000, , http://www.sciencedirect.com/science/journal/00029629/
+Fully Indexed In: MEDLINE: v250n3, Sept. 1965-; Abridged index medicus; Index medicus
+In: PubMed: v250n3, Sept. 1965-, OLDMEDLINE; 
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Publishers: Carey & Lea, 1830-1832; Carey, Lea & Blanchard, 1833-1838; Lea &
+Blanchard ; Blanchard & Lea, -1865; Henry C. Lea, 1865-1876; Charles B. Slack,
+Part of title on microfilm. Vol. 322, no. 5 (Nov. 2001) was republished with
+corrected pagination. Also issued online. Microfilm. v. 1 (1827)-v. 26 (1840),
+n.s.: v. 1 (1841)-v. 20 (1850), v. 22(1851)-v. 75 (1878), v.77 (1879)-v. 103
+(1892), v.105 (1893)-v. 124(1902), v. 126(1903)-v. 236(1958), v. 238(1959)-v. 241
+(1961). 234 microfilm reels : negative ; 35 mm. Issues for July 1955- have
+summaries in Interlingua. Official journal of the Southern Society for Clinical
+Investigation, <Nov. 1984->
+Other ID: (DNLM)A24405000(s)(OCoLC)01480197
+NLM ID: 0370506[Serial]
+
+44. Title Abbreviation: Lancet
+Title(s): Lancet.
+Publication Start Year: 1823
+Publication End Year: 
+Frequency: Weekly
+Country of Publication: England
+Publisher: London : J. Onwhyn
+Latest Publisher: 2004- : London : Elsevier
+Description: v. ill., ports.
+Language: English
+ISSN: 0140-6736(Print); 1474-547X(Electronic); 0140-6736(Linking)
+Coden: LANCAO
+LCCN: sf 82002015
+Electronic Links: , http://www.sciencedirect.com/science/journal/01406736
+Fully Indexed In: MEDLINE: v28n2, Sept. 1963-; Abridged index medicus; Index medicus
+In: PubMed: v28n2, Sept. 1963-, OLDMEDLINE
+Current Indexing Status: Currently indexed for MEDLINE. 
+Current Subset: Core clinical journals (AIM); Index Medicus
+Version Indexed: Electronic
+MeSH: Medicine*
+Publication Type(s): Periodical
+Notes: Print issues for this edition ceased with vol. 384, no. 9959 (Dec. 6-12, 2014).
+Print issues continue with North American edition (NLM UI 0053266). Some volumes 
+issued also in rev. editions. A volume of covers and advertising pages, 1831-33
+is shelved in the Library's History of Medicine Division. Many volumes have also 
+whole numbers. Online issues have retrospective volume numbering which does not
+appear on print issues. Also issued online. Microfilm. v. 1 (1823)-2 (1824), v. 5
+(1824)-12 (1827), v. 1, no. 214 (1827)-v. 2, no. 680 (1836), v. 1, no. 682
+(1836)-1, no. 1072 (1844), v. 1, no. 1114 (1845)-2, no. 1895 (1859), v. 1, no.
+3149-3177 (1884), v. 1, no. 4036-4087 (1901), v. 2, no. 4270-4296 (1905), v. 2,
+no. 4375-4400 (1907), v. 1, no. 4558-4582 (1911), v. 2, no. 4688 (1913)-2, no.
+4922 (1917), v. 1 (1914)-v. 2 (1915), v. 1 jan-mar (1942), v. 2, no. 7453-7464
+(1966)-v. 2, no. 7466-7479 (1966), v. 1, no. 7480-7491 (1967), v. 2, no.
+7505-4518 (1967)- v. 2, no. 7519-7531 (1967), v. 1, apr-jun (1968), v. 2 jul-sep 
+(1968) 78 microfilm reels : negative ; 35 mm.
+Other ID: (DNLM)L01840000(s)(OCoLC)01755507
+NLM ID: 2985213R[Serial]
+
