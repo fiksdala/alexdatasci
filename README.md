@@ -27,7 +27,7 @@ Every project will be located in a dedicated folder within this repository. For 
 
 [CDC Data Prep](https://github.com/fiksdala/alexdatasci/tree/master/cdc_data_prep): Data cleaning procedures used for the ML Binary Classification project
 
-[Hospital Mortality](https://github.com/fiksdala/alexdatasci/tree/master/physionet_hosp_mortality): Rough, initital analysis of hospital mortality from publicly available physionet challenge (poorly annotated, not yet ready for alexdatasci.com).
+[Hospital Mortality](https://github.com/fiksdala/alexdatasci/tree/master/physionet_hosp_mortality): Rough, initital analysis of hospital mortality from publicly available physionet challenge (poorly annotated, not yet complete).
 
 ## Who am I?
 
