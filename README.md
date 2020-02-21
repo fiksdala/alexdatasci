@@ -21,13 +21,11 @@ Every project will be located in a dedicated folder within this repository. For 
 
 [Cortisol Response Visualization: R Shiny](https://github.com/fiksdala/data-projects/tree/master/diss_visualization)
 
-## Other Folders (misc and unfinished projects)
+## Other Folders (misc)
 
 [State Ranks](https://github.com/fiksdala/alexdatasci/tree/master/state_ranks): Creation of dictionary of state abbreviations to ranks of various indicators
 
 [CDC Data Prep](https://github.com/fiksdala/alexdatasci/tree/master/cdc_data_prep): Data cleaning procedures used for the ML Binary Classification project
-
-[Hospital Mortality](https://github.com/fiksdala/alexdatasci/tree/master/physionet_hosp_mortality): Rough, initital analysis of hospital mortality from publicly available physionet challenge (poorly annotated, not yet complete).
 
 ## Who am I?
 
